@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_retailstore_index>
+        <reference name="content">
+            <block type="dever_retailstore/adminhtml_retailstore" name="retailstore" />
+        </reference>
+    </adminhtml_retailstore_index>
+    <adminhtml_retailstore_edit>
+        <reference name="content">
+            <block type="dever_retailstore/adminhtml_retailstore_edit" name="retailstore_edit" />
+        </reference>
+    </adminhtml_retailstore_edit>
+</layout>

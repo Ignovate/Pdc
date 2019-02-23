@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dever_Import>
+            <version>0.0.1</version>
+        </Dever_Import>
+    </modules>
+    <global>
+        <blocks>
+            <dever_import>
+                <class>Dever_Import_Block</class>
+            </dever_import>
+        </blocks>
+        <helpers>
+            <dever_import>
+                <class>Dever_Import_Helper</class>
+            </dever_import>
+        </helpers>
+        <models>
+            <dever_import>
+                <class>Dever_Import_Model</class>
+            </dever_import>
+        </models>
+    </global>
+</config>

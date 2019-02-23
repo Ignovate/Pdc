@@ -1,0 +1,310 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<?php if (is_array($this->getChild('diagrams')->getTabsIds())) : ?>
+<script type="text/javascript">
+//<![CDATA[
+function changeDiagramsPeriod(periodObj, tabId, totalId) {
+    periodParam = periodObj.value ? 'period/' + periodObj.value + '/' : '';
+<?php //foreach ($this->getChild('diagrams')->getTabsIds() as $tabId): ?>
+    ajaxBlockParam = 'block/tab_'+ tabId +'/';
+    ajaxBlockUrl = '<?php echo $this->getUrl('*/*/ajaxBlock', array('_current' => true, 'block' => '', 'period' => '')) ?>' + ajaxBlockParam + periodParam;
+    new Ajax.Request(ajaxBlockUrl, {
+        parameters: {isAjax: 'true', form_key: FORM_KEY},
+        onSuccess: function(transport) {
+            tabContentElementId = '<?php echo $this->getChild('diagrams')->getId() ?>_'+ tabId +'_content';
+            try {
+                if (transport.responseText.isJSON()) {
+                    var response = transport.responseText.evalJSON()
+                    if (response.error) {
+                        alert(response.message);
+                    }
+                    if(response.ajaxExpired && response.ajaxRedirect) {
+                        setLocation(response.ajaxRedirect);
+                    }
+                } else {
+                    $(tabContentElementId).update(transport.responseText);
+                }
+            }
+            catch (e) {
+                $(tabContentElementId).update(transport.responseText);
+            }
+        }
+    });
+<?php //endforeach; ?>
+    ajaxBlockUrl = '<?php echo $this->getUrl('*/*/ajaxBlock', array('_current' => true, 'block' => 'totals', 'period' => '')) ?>' + periodParam;
+    new Ajax.Request(ajaxBlockUrl, {
+        parameters: {isAjax: 'true', form_key: FORM_KEY},
+        onSuccess: function(transport) {
+            tabContentElementId = totalId;
+            try {
+                if (transport.responseText.isJSON()) {
+                    var response = transport.responseText.evalJSON()
+                    if (response.error) {
+                        alert(response.message);
+                    }
+                    if(response.ajaxExpired && response.ajaxRedirect) {
+                        setLocation(response.ajaxRedirect);
+                    }
+                } else {
+                    $(tabContentElementId).update(transport.responseText);
+                }
+            }
+            catch (e) {
+                $(tabContentElementId).update(transport.responseText);
+            }
+        }
+    });
+}
+
+function toggleCal(id) {
+    $('dashboard_'+id+'_cal_div').toggle();
+    $('dashboard_'+id+'_range_div').toggle();
+}
+//]]>
+</script>
+<?php endif; ?>
+<div class="dashboard-w">
+    <div class="content-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 admin-page-title">
+                    <h3 class="header-title head-dashboard"><?php echo $this->__('Dashboard') ?></h3>
+                    <span class="header-subtitle"><?php echo $this->__('overview & stats'); ?></span>
+                </div>
+                <div class="admin-change-store col-sm-6 hidden-xs">
+                    <div><a style="color:white" href="http://melonberries.com/agentx/customReport/import_product.csv" download><button>Product Import Sample<img style="height:20px" src="http://melonberries.com/agentx/appimages/downloadadminreport.png"/></button></a>&emsp;&emsp;&emsp;<a style="color:white" href="http://melonberries.com/agentx/customReport/orderReport.php"><button>Order Report<img style="height:20px" src="http://melonberries.com/agentx/appimages/downloadadminreport.png"/></button></a>&emsp;&emsp;&emsp;<a style="color:white" href="http://melonberries.com/agentx/customReport/orderItemReport.php"><button>Order Item Report<img style="height:20px" src="http://melonberries.com/agentx/appimages/downloadadminreport.png"/></button></a></div>
+                    <?php echo $this->getChildHtml('store_switcher') ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dashboard-container">
+        <div class="container">
+            <div class="row">
+                <?php echo $this->getChildHtml('sales') ?>
+                <div class="col-md-3 col-sm-6 col-xs-12 top-report customer-number">
+                    <?php
+                        $user = mage::getModel('customer/customer')
+                            ->getCollection()
+                            ->addAttributeToSort('email', 'ASC');
+                    ?>
+                    <div class="top-report-head">
+                        <h4><?php echo $this->__('Total Customers');?></h4>
+                    </div>
+                    <div class="cms top-report-content">
+                        <div class="row">
+                            <div class="col-xs-3 top-report-icon">
+                                <i class="fa fa-user"></i>  
+                            </div>
+                            <div class="col-xs-9 top-report-value">
+                                <?php echo count($user); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:none;" class="col-md-3 col-sm-6 col-xs-12 top-report visitor-online">
+                    <?php
+                        $visitor_count = Mage::getModel('log/visitor_online')
+                            ->prepare()
+                            ->getCollection()->count();
+                    ?>
+                    <div class="top-report-head">
+                        <h4><?php echo $this->__('People Online');?></h4>
+                    </div>
+                    <div class="cms top-report-content">
+                        <div class="row">
+                            <div class="col-xs-3 top-report-icon">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                            <div class="col-xs-9 top-report-value">
+                                <?php 
+                                    if(!empty($visitor_count) && $visitor_count > 0)
+                                    {
+                                        $cnt =  $visitor_count;             
+                                        echo $cnt;
+                                    }  
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container chart-order-w" id="diagram_tab_content">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-bar-chart-alt"></span>
+                        <span class="db-header-title"><?php echo $this->__('Orders');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="chart-height">
+                            <span class="chart-title">
+                                <?php echo $this->__('Orders');?>
+                            </span>
+                            <div id="diagram_tab_orders_content">
+                                <?php //echo $this->getChildHtml('diagrams') 
+                                    echo $this->getLayout()->createBlock('adminhtml/dashboard_tab_orders')->toHtml()
+                                ?>
+                            </div>
+                            <div class="chart-totals">
+                                <div id="dashboard_diagram_totals_order" class="dashboard_diagram_totals">
+                                    <?php echo $this->getChildHtml('totals') ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              <!--  <div class="col-md-6 col-xs-12">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-bar-chart-alt"></span>
+                        <span class="db-header-title"><?php// echo $this->__('Amounts');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="chart-height">
+                            <span class="chart-title">
+                                <?php //echo $this->__('Amounts');?>
+                            </span>
+                            <div id="diagram_tab_amounts_content">
+                                <?php
+                                   // echo $this->getLayout()->createBlock('adminhtml/dashboard_tab_amounts')->toHtml()
+                                ?>
+                            </div>
+                            <div class="chart-totals">
+                                <div id="dashboard_diagram_totals_amount" class="dashboard_diagram_totals">
+                                    <?php// echo $this->getChildHtml('totals') ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="container recent-last-order">
+            <div class="row">
+                <div style="display:none;" class="col-sm-4 col-xs-12 recent-activity">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-calendar"></span>
+                        <span class="db-header-title"><?php echo $this->__('Recent Activity');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                        <?php
+                            // Gets the current store's details
+                            $storeId = Mage::app()->getRequest()->getParam('store');
+
+                            $connection = Mage::getModel('core/resource')->getConnection('core_read');
+                            $sql = 'SELECT * FROM `log_customer` ORDER BY `log_id` DESC';
+                            $customers = $connection->fetchAll($sql);
+                        ?>
+                        <div class="grid np">
+                            <table cellspacing="0" style="border:0;" id="recent_activity">
+                                <tbody>
+                                    <?php
+                                        $i = 1;
+                                        foreach ($customers as $customer) {
+                                            $customerId = $customer['customer_id'];
+                                            $customerData = Mage::getModel('customer/customer')->load($customerId)->getData();
+                                            $name = $customerData['firstname']. ' ' . $customerData['lastname'];
+                                    ?>
+                                            <tr>
+                                                <td class="empty-text a-left">
+                                                    <span class="name d-block"><span><?php echo $name; ?></span> <?php echo $this->__('Logged in.'); ?></span>
+                                                    <span class="time_login d-block"><?php echo $customer['login_at'] ?></span>
+                                                </td>
+                                            </tr>
+                                    <?php
+                                            $i++;
+                                            if($i == 5){ break; }
+                                        }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-bar-chart-alt"></span>
+                        <span class="db-header-title"><?php echo $this->__('Last 5 Orders');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                        <?php echo $this->getChildHtml('lastOrders'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container top-views-overviews">
+            <div class="row">
+                <div style="display:none;" class="col-lg-6 col-xs-12 db-product-view-w">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-eye"></span>
+                        <span class="db-header-title"><?php echo $this->__('Top 5 Views');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                        <?php echo $this->getChildHtml('viewed'); ?>
+                            <div id="grid_tab_content2"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xs-12">
+                    <div class="db-overviews-w">
+                        <div class="dashboard-header">
+                            <span class="db-header-icon ti-view-list-alt"></span>
+                            <span class="db-header-title"><?php echo $this->__('Overviews');?></span>
+                        </div>
+                        <div class="dashboard-content">
+                            <?php echo $this->getChildHtml('grids') ?>
+                            <div id="grid_tab_content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display:none;" class="container top-search">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 top-search-w">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-search"></span>
+                        <span class="db-header-title"><?php echo $this->__('Top 5 Search Terms');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                        <?php echo $this->getChildHtml('topSearches'); ?>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="dashboard-header">
+                        <span class="db-header-icon ti-search"></span>
+                        <span class="db-header-title"><?php echo $this->__('Last 5 Search Terms');?></span>
+                    </div>
+                    <div class="dashboard-content">
+                       <?php echo $this->getChildHtml('lastSearches'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

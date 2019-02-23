@@ -1,0 +1,10 @@
+<?php
+
+class Dever_Retailstore_Model_Retailstore extends Mage_Core_Model_Abstract
+{
+    public function _construct()
+    {
+        parent::_construct();
+        $this->_init('dever_retailstore/retailstore');
+    }
+}

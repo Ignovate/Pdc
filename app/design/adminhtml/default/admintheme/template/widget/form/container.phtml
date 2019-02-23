@@ -1,0 +1,110 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * @see Mage_Adminhtml_Block_Widget_Form_Container
+ */
+ ?>
+<?php echo $this->getFormInitScripts() ?>
+<div class="sales-orders-header">
+	<div class="content-header">
+		<div class="container not-order-page">
+			<div class="row">
+	            <div class="col-sm-6 col-xs-9">
+	                <?php echo $this->getHeaderHtml(); ?>
+	                <ul class="breadcrumb">
+	                    <li>
+	                        <a href="<?php echo $this->getBaseUrl().'admin'; ?>">
+	                            <?php echo $this->__('Dashboard'); ?>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <span><?php echo $this->getHeaderHtml(); ?></span>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col-sm-6 col-xs-3 form-buttons">
+	            	<?php echo $this->getButtonsHtml('header') ?>
+	            </div>
+	        </div>
+		</div>
+		<div class="container sales-orders hidden">
+	        <div class="row">
+	            <div class="col-md-12">
+	                <h3><?php echo $this->__('Orders'); ?></h3>
+	                <ul class="breadcrumb">
+	                    <li>
+	                        <a href="<?php echo $this->getBaseUrl().'admin'; ?>">
+	                            <?php echo $this->__('Dashboard'); ?>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <span><?php echo $this->__('Sales'); ?></span>
+	                    </li>
+	                </ul>
+	            </div>
+	         </div>
+	    </div>
+	</div>
+	<div class="container sales-orders top-title-buttons hidden">
+		<div class="row">
+	        <div class="col-md-6">
+	            <?php echo $this->getHeaderHtml() ?>
+	        </div>
+	        <div class="col-md-6 form-buttons">
+	        	<?php echo $this->getButtonsHtml('header') ?>
+	        </div>
+	    </div>
+	</div>
+</div>
+<?php echo $this->getFormHtml() ?>
+<?php if ($this->hasFooterButtons()): ?>
+    <div class="content-footer">
+        <p class="form-buttons"><?php echo $this->getButtonsHtml('footer') ?></p>
+    </div>
+<?php endif; ?>
+<script type="text/javascript">
+    editForm = new varienForm('edit_form', '<?php echo $this->getValidationUrl() ?>');
+</script>
+<?php echo $this->getFormScripts() ?>
+<script type="text/javascript">
+	//Set padding top for order detail
+    function paddingTop(){
+    	var classHeight = jQuery('.sales-orders.top-title-buttons');
+    	var classHeight2 = jQuery('.sales-orders-header');
+    	if(classHeight){
+        	var headerHeight = classHeight.height() + 25;
+        }
+        if(classHeight2){
+        	var headerHeight2 = classHeight2.height() + 25;
+        }
+        jQuery('.vertical.adminhtml-sales-order-view .side-col').css('padding-top',headerHeight);
+        jQuery('.horizontal.adminhtml-sales-order-view .side-col').css('padding-top',headerHeight2);
+   	}
+   	jQuery(window).ready(paddingTop);
+	jQuery(window).resize(paddingTop);
+</script>

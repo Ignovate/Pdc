@@ -1,0 +1,496 @@
+
+<div class="nav-bar nav">
+<!-- menu start -->
+<ul id="nav">
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 menu_icon"> <a href="#"  onclick="return false" class=""><span>Stores</span></a>
+<ul >
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/retailstore/index/key/$retailstore/index$/"   class=""><span>Manage Retailstores</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level0 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/dashboard/index/key/$dashboard/index$/"   class=""><span>Dashboard</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class=" active  parent level0 sales"> <a href="#"  onclick="return false" class="active"><span>Sales</span></a>
+<ul >
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_order/index/key/$sales_order/index$/"   class=""><span>Orders</span></a>
+</li>
+<li  class="  level1 sales"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_invoice/index/key/$sales_invoice/index$/"   class=""><span>Invoices</span></a>
+</li>
+<li  class="  level1 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_shipment/index/key/$sales_shipment/index$/"   class=""><span>Shipments</span></a>
+</li>
+<li  class="  level1 customers"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_creditmemo/index/key/$sales_creditmemo/index$/"   class=""><span>Credit Memos</span></a>
+</li>
+<li  class="  level1 promotions"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_transactions/index/key/$sales_transactions/index$/"   class=""><span>Transactions</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/checkout_agreement/index/key/$checkout_agreement/index$/"   class=""><span>Terms and conditions</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1 menu_icon"> <a href="#"  onclick="return false" class=""><span>Tax</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_rule/index/key/$tax_rule/index$/"   class=""><span>Manage Tax Rules</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_rate/index/key/$tax_rate/index$/"   class=""><span>Manage Tax Zones &amp; Rates</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_rate/importExport/key/$tax_rate/importExport$/"   class=""><span>Import / Export Tax Rates</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_class_customer/index/key/$tax_class_customer/index$/"   class=""><span>Customer Tax Classes</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_class_product/index/key/$tax_class_product/index$/"   class=""><span>Product Tax Classes</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 catalog"> <a href="#"  onclick="return false" class=""><span>Catalog</span></a>
+<ul >
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_product/index/key/$catalog_product/index$/"   class=""><span>Manage Products</span></a>
+</li>
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_category/index/key/$catalog_category/index$/"   class=""><span>Manage Categories</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1 sales"> <a href="#"  onclick="return false" class=""><span>Attributes</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_product_attribute/index/key/$catalog_product_attribute/index$/"   class=""><span>Manage Attributes</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_product_set/index/key/$catalog_product_set/index$/"   class=""><span>Manage Attribute Sets</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 customers"> <a href="#"  onclick="return false" class=""><span>Customers</span></a>
+<ul >
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/customer/index/key/$customer/index$/"   class=""><span>Manage Customers</span></a>
+</li>
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/customer_group/index/key/$customer_group/index$/"   class=""><span>Customer Groups</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/customer_online/index/key/$customer_online/index$/"   class=""><span>Online Customers</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 promotions"> <a href="#"  onclick="return false" class=""><span>Promotions</span></a>
+<ul >
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/promo_catalog/index/key/$promo_catalog/index$/"   class=""><span>Catalog Price Rules</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/promo_quote/index/key/$promo_quote/index$/"   class=""><span>Shopping Cart Price Rules</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 reports"> <a href="#"  onclick="return false" class=""><span>Reports</span></a>
+<ul >
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 dashboard"> <a href="#"  onclick="return false" class=""><span>Sales</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/sales/key/$report_sales/sales$/"   class=""><span>Orders</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/tax/key/$report_sales/tax$/"   class=""><span>Tax</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/invoiced/key/$report_sales/invoiced$/"   class=""><span>Invoiced</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/shipping/key/$report_sales/shipping$/"   class=""><span>Shipping</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/refunded/key/$report_sales/refunded$/"   class=""><span>Refunds</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/coupons/key/$report_sales/coupons$/"   class=""><span>Coupons</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 sales"> <a href="#"  onclick="return false" class=""><span>Shopping Cart</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_shopcart/product/key/$report_shopcart/product$/"   class=""><span>Products in carts</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_shopcart/abandoned/key/$report_shopcart/abandoned$/"   class=""><span>Abandoned carts</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 catalog"> <a href="#"  onclick="return false" class=""><span>Products</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/bestsellers/key/$report_sales/bestsellers$/"   class=""><span>Bestsellers</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/sold/key/$report_product/sold$/"   class=""><span>Products Ordered</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/viewed/key/$report_product/viewed$/"   class=""><span>Most Viewed</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/lowstock/key/$report_product/lowstock$/"   class=""><span>Low stock</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/downloads/key/$report_product/downloads$/"   class=""><span>Downloads</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 customers"> <a href="#"  onclick="return false" class=""><span>Customers</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_customer/accounts/key/$report_customer/accounts$/"   class=""><span>New Accounts</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_customer/totals/key/$report_customer/totals$/"   class=""><span>Customers by orders total</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_customer/orders/key/$report_customer/orders$/"   class=""><span>Customers by number of orders</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 promotions"> <a href="#"  onclick="return false" class=""><span>Tags</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_tag/customer/key/$report_tag/customer$/"   class=""><span>Customers</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_tag/product/key/$report_tag/product$/"   class=""><span>Products</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_tag/popular/key/$report_tag/popular$/"   class=""><span>Popular</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 menu_icon"> <a href="#"  onclick="return false" class=""><span>Reviews</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_review/customer/key/$report_review/customer$/"   class=""><span>Customers Reviews</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_review/product/key/$report_review/product$/"   class=""><span>Products Reviews</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 newsletter"> <a href="https://www.melonberries.com/pdc/index.php/admin/report/search/key/$report/search$/"   class=""><span>Search Terms</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_statistics/index/key/$report_statistics/index$/"   class=""><span>Refresh Statistics</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 system"> <a href="#"  onclick="return false" class=""><span>System</span></a>
+<ul >
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_account/index/key/$system_account/index$/"   class=""><span>My Account</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/notification/index/key/$notification/index$/"   class=""><span>Notifications</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 sales"> <a href="#"  onclick="return false" class=""><span>Tools</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_backup/index/key/$system_backup/index$/"   class=""><span>Backups</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/smtp_log/index/key/$smtp_log/index$/"   class=""><span>SMTPPro - Email Log</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/compiler_process/index/key/$compiler_process/index$/"   class=""><span>Compilation</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 menu_icon"> <a href="#"  onclick="return false" class=""><span>Web Services</span></a>
+<ul >
+<li  class="  level2 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/api_user/index/key/$api_user/index$/"   class=""><span>SOAP/XML-RPC - Users</span></a>
+</li>
+<li  class="  level2 sales"> <a href="https://www.melonberries.com/pdc/index.php/admin/api_role/index/key/$api_role/index$/"   class=""><span>SOAP/XML-RPC - Roles</span></a>
+</li>
+<li  class="  level2 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/api2_role/index/key/$api2_role/index$/"   class=""><span>REST - Roles</span></a>
+</li>
+<li  class="  level2 customers"> <a href="https://www.melonberries.com/pdc/index.php/admin/api2_attribute/index/key/$api2_attribute/index$/"   class=""><span>REST - Attributes</span></a>
+</li>
+<li  class="  last level2 cms"> <a href="https://www.melonberries.com/pdc/index.php/admin/oauth_admin_token/index/key/$oauth_admin_token/index$/"   class=""><span>REST - My Apps</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_design/index/key/$system_design/index$/"   class=""><span>Design</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 customers"> <a href="#"  onclick="return false" class=""><span>Import/Export</span></a>
+<ul >
+<li  class="  level2 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/import/index/key/$import/index$/"   class=""><span>Import</span></a>
+</li>
+<li  class="  level2 sales"> <a href="https://www.melonberries.com/pdc/index.php/admin/export/index/key/$export/index$/"   class=""><span>Export</span></a>
+</li>
+<li  class="  level2 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_convert_gui/index/key/$system_convert_gui/index$/"   class=""><span>Dataflow - Profiles</span></a>
+</li>
+<li  class="  last level2 customers"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_convert_profile/index/key/$system_convert_profile/index$/"   class=""><span>Dataflow - Advanced Profiles</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 promotions"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>Manage Currency</span></a>
+<ul >
+<li  class="  level2 promotions"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>Rates</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_currencysymbol/index/key/$system_currencysymbol/index$/"   class=""><span>Symbols</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 newsletter"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_email_template/index/key/$system_email_template/index$/"   class=""><span>Transactional Emails</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_variable/index/key/$system_variable/index$/"   class=""><span>Custom Variables</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 cms"> <a href="#"  onclick="return false" class=""><span>Permissions</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_user/index/key/$permissions_user/index$/"   class=""><span>Users</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_role/index/key/$permissions_role/index$/"   class=""><span>Roles</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_variable/index/key/$permissions_variable/index$/"   class=""><span>Variables</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_block/index/key/$permissions_block/index$/"   class=""><span>Blocks</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 system"> <a href="https://www.melonberries.com/pdc/index.php/admin/cache/index/key/$cache/index$/"   class=""><span>Cache Management</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/process/list/key/$process/list$/"   class=""><span>Index Management</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_store/index/key/$system_store/index$/"   class=""><span>Manage Stores</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_order_status/index/key/$sales_order_status/index$/"   class=""><span>Order Statuses</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_config/index/key/$system_config/index$/"   class=""><span>Configuration</span></a>
+</li>
+</ul>
+</li>
+</ul>
+<!-- menu end -->
+</div>
+
+<div class="nav-bar1 nav disable">
+	<div class="nb-topsearch visible-sm visible-xs">
+            <fieldset>
+            <!-- <legend>Search</legend> -->
+                        <div class="search-input">
+                <input id="global_search1" name="query" type="text" class="input-text" value="Search" onfocus="if(this.value=='Search')this.value=''; " onblur="if(this.value=='')this.value='Search';" />
+                <i class="fa fa-search"></i>
+            </div>
+            <span id="global_search_indicator1" class="autocomplete-indicator" style="display: none">
+                <img src="https://www.melonberries.com/pdc/skin/adminhtml/default/admintheme/images/ajax-loader.gif" alt="Loading..." class="v-middle"/>
+            </span>
+            <div id="global_search_autocomplete1" class="autocomplete"></div>
+            <script type="text/javascript">
+                new Ajax.Autocompleter(
+                    'global_search1',
+                    'global_search_autocomplete1',
+                    'https://www.melonberries.com/pdc/index.php/admin/index/globalSearch/key/2196f2e0b27686c345bd47b07aa9b8b3/',
+                    {
+                        paramName:"query",
+                        minChars:2,
+                        indicator:"global_search_indicator1",
+                        updateElement:getSelectionId,
+                        evalJSON:'force'
+                    }
+                );
+                function getSelectionId(li) {
+                    location.href = li.getAttribute('url');
+                }
+            </script>
+        </fieldset>
+        </div>
+	<!-- menu start -->
+	<ul id="nav">
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 menu_icon"> <a href="#"  onclick="return false" class=""><span>Stores</span></a>
+<ul >
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/retailstore/index/key/$retailstore/index$/"   class=""><span>Manage Retailstores</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level0 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/dashboard/index/key/$dashboard/index$/"   class=""><span>Dashboard</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class=" active  parent level0 sales"> <a href="#"  onclick="return false" class="active"><span>Sales</span></a>
+<ul >
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_order/index/key/$sales_order/index$/"   class=""><span>Orders</span></a>
+</li>
+<li  class="  level1 sales"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_invoice/index/key/$sales_invoice/index$/"   class=""><span>Invoices</span></a>
+</li>
+<li  class="  level1 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_shipment/index/key/$sales_shipment/index$/"   class=""><span>Shipments</span></a>
+</li>
+<li  class="  level1 customers"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_creditmemo/index/key/$sales_creditmemo/index$/"   class=""><span>Credit Memos</span></a>
+</li>
+<li  class="  level1 promotions"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_transactions/index/key/$sales_transactions/index$/"   class=""><span>Transactions</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/checkout_agreement/index/key/$checkout_agreement/index$/"   class=""><span>Terms and conditions</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1 menu_icon"> <a href="#"  onclick="return false" class=""><span>Tax</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_rule/index/key/$tax_rule/index$/"   class=""><span>Manage Tax Rules</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_rate/index/key/$tax_rate/index$/"   class=""><span>Manage Tax Zones &amp; Rates</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_rate/importExport/key/$tax_rate/importExport$/"   class=""><span>Import / Export Tax Rates</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_class_customer/index/key/$tax_class_customer/index$/"   class=""><span>Customer Tax Classes</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/tax_class_product/index/key/$tax_class_product/index$/"   class=""><span>Product Tax Classes</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 catalog"> <a href="#"  onclick="return false" class=""><span>Catalog</span></a>
+<ul >
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_product/index/key/$catalog_product/index$/"   class=""><span>Manage Products</span></a>
+</li>
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_category/index/key/$catalog_category/index$/"   class=""><span>Manage Categories</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1 sales"> <a href="#"  onclick="return false" class=""><span>Attributes</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_product_attribute/index/key/$catalog_product_attribute/index$/"   class=""><span>Manage Attributes</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/catalog_product_set/index/key/$catalog_product_set/index$/"   class=""><span>Manage Attribute Sets</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 customers"> <a href="#"  onclick="return false" class=""><span>Customers</span></a>
+<ul >
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/customer/index/key/$customer/index$/"   class=""><span>Manage Customers</span></a>
+</li>
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/customer_group/index/key/$customer_group/index$/"   class=""><span>Customer Groups</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/customer_online/index/key/$customer_online/index$/"   class=""><span>Online Customers</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 promotions"> <a href="#"  onclick="return false" class=""><span>Promotions</span></a>
+<ul >
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/promo_catalog/index/key/$promo_catalog/index$/"   class=""><span>Catalog Price Rules</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/promo_quote/index/key/$promo_quote/index$/"   class=""><span>Shopping Cart Price Rules</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 reports"> <a href="#"  onclick="return false" class=""><span>Reports</span></a>
+<ul >
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 dashboard"> <a href="#"  onclick="return false" class=""><span>Sales</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/sales/key/$report_sales/sales$/"   class=""><span>Orders</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/tax/key/$report_sales/tax$/"   class=""><span>Tax</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/invoiced/key/$report_sales/invoiced$/"   class=""><span>Invoiced</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/shipping/key/$report_sales/shipping$/"   class=""><span>Shipping</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/refunded/key/$report_sales/refunded$/"   class=""><span>Refunds</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/coupons/key/$report_sales/coupons$/"   class=""><span>Coupons</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 sales"> <a href="#"  onclick="return false" class=""><span>Shopping Cart</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_shopcart/product/key/$report_shopcart/product$/"   class=""><span>Products in carts</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_shopcart/abandoned/key/$report_shopcart/abandoned$/"   class=""><span>Abandoned carts</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 catalog"> <a href="#"  onclick="return false" class=""><span>Products</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_sales/bestsellers/key/$report_sales/bestsellers$/"   class=""><span>Bestsellers</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/sold/key/$report_product/sold$/"   class=""><span>Products Ordered</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/viewed/key/$report_product/viewed$/"   class=""><span>Most Viewed</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/lowstock/key/$report_product/lowstock$/"   class=""><span>Low stock</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_product/downloads/key/$report_product/downloads$/"   class=""><span>Downloads</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 customers"> <a href="#"  onclick="return false" class=""><span>Customers</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_customer/accounts/key/$report_customer/accounts$/"   class=""><span>New Accounts</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_customer/totals/key/$report_customer/totals$/"   class=""><span>Customers by orders total</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_customer/orders/key/$report_customer/orders$/"   class=""><span>Customers by number of orders</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 promotions"> <a href="#"  onclick="return false" class=""><span>Tags</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_tag/customer/key/$report_tag/customer$/"   class=""><span>Customers</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_tag/product/key/$report_tag/product$/"   class=""><span>Products</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_tag/popular/key/$report_tag/popular$/"   class=""><span>Popular</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 menu_icon"> <a href="#"  onclick="return false" class=""><span>Reviews</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_review/customer/key/$report_review/customer$/"   class=""><span>Customers Reviews</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_review/product/key/$report_review/product$/"   class=""><span>Products Reviews</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 newsletter"> <a href="https://www.melonberries.com/pdc/index.php/admin/report/search/key/$report/search$/"   class=""><span>Search Terms</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/report_statistics/index/key/$report_statistics/index$/"   class=""><span>Refresh Statistics</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0 system"> <a href="#"  onclick="return false" class=""><span>System</span></a>
+<ul >
+<li  class="  level1 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_account/index/key/$system_account/index$/"   class=""><span>My Account</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/notification/index/key/$notification/index$/"   class=""><span>Notifications</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 sales"> <a href="#"  onclick="return false" class=""><span>Tools</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_backup/index/key/$system_backup/index$/"   class=""><span>Backups</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/smtp_log/index/key/$smtp_log/index$/"   class=""><span>SMTPPro - Email Log</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/compiler_process/index/key/$compiler_process/index$/"   class=""><span>Compilation</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 menu_icon"> <a href="#"  onclick="return false" class=""><span>Web Services</span></a>
+<ul >
+<li  class="  level2 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/api_user/index/key/$api_user/index$/"   class=""><span>SOAP/XML-RPC - Users</span></a>
+</li>
+<li  class="  level2 sales"> <a href="https://www.melonberries.com/pdc/index.php/admin/api_role/index/key/$api_role/index$/"   class=""><span>SOAP/XML-RPC - Roles</span></a>
+</li>
+<li  class="  level2 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/api2_role/index/key/$api2_role/index$/"   class=""><span>REST - Roles</span></a>
+</li>
+<li  class="  level2 customers"> <a href="https://www.melonberries.com/pdc/index.php/admin/api2_attribute/index/key/$api2_attribute/index$/"   class=""><span>REST - Attributes</span></a>
+</li>
+<li  class="  last level2 cms"> <a href="https://www.melonberries.com/pdc/index.php/admin/oauth_admin_token/index/key/$oauth_admin_token/index$/"   class=""><span>REST - My Apps</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_design/index/key/$system_design/index$/"   class=""><span>Design</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 customers"> <a href="#"  onclick="return false" class=""><span>Import/Export</span></a>
+<ul >
+<li  class="  level2 dashboard"> <a href="https://www.melonberries.com/pdc/index.php/admin/import/index/key/$import/index$/"   class=""><span>Import</span></a>
+</li>
+<li  class="  level2 sales"> <a href="https://www.melonberries.com/pdc/index.php/admin/export/index/key/$export/index$/"   class=""><span>Export</span></a>
+</li>
+<li  class="  level2 catalog"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_convert_gui/index/key/$system_convert_gui/index$/"   class=""><span>Dataflow - Profiles</span></a>
+</li>
+<li  class="  last level2 customers"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_convert_profile/index/key/$system_convert_profile/index$/"   class=""><span>Dataflow - Advanced Profiles</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 promotions"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>Manage Currency</span></a>
+<ul >
+<li  class="  level2 promotions"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>Rates</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_currencysymbol/index/key/$system_currencysymbol/index$/"   class=""><span>Symbols</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 newsletter"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_email_template/index/key/$system_email_template/index$/"   class=""><span>Transactional Emails</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_variable/index/key/$system_variable/index$/"   class=""><span>Custom Variables</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1 cms"> <a href="#"  onclick="return false" class=""><span>Permissions</span></a>
+<ul >
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_user/index/key/$permissions_user/index$/"   class=""><span>Users</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_role/index/key/$permissions_role/index$/"   class=""><span>Roles</span></a>
+</li>
+<li  class="  level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_variable/index/key/$permissions_variable/index$/"   class=""><span>Variables</span></a>
+</li>
+<li  class="  last level2 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/permissions_block/index/key/$permissions_block/index$/"   class=""><span>Blocks</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1 system"> <a href="https://www.melonberries.com/pdc/index.php/admin/cache/index/key/$cache/index$/"   class=""><span>Cache Management</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/process/list/key/$process/list$/"   class=""><span>Index Management</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_store/index/key/$system_store/index$/"   class=""><span>Manage Stores</span></a>
+</li>
+<li  class="  level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/sales_order_status/index/key/$sales_order_status/index$/"   class=""><span>Order Statuses</span></a>
+</li>
+<li  class="  last level1 menu_icon"> <a href="https://www.melonberries.com/pdc/index.php/admin/system_config/index/key/$system_config/index$/"   class=""><span>Configuration</span></a>
+</li>
+</ul>
+</li>
+</ul>
+	<!-- menu end -->
+</div>

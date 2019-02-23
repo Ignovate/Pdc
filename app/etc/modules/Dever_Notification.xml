@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Dever_Notification>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Dever_Notification>
+  </modules>
+</config>

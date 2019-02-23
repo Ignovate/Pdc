@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Dever_Api2>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Dever_Api2>
+  </modules>
+</config>

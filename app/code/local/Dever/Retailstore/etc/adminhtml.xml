@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <dever_retailstore module="dever_retailstore">
+                        <title>Dever</title>
+                        <sort_order>1</sort_order>
+                        <children>
+                            <manage_retailstore module="dever_retailstore">
+                                <title>Manage Retailstores</title>
+                                <sort_order>0</sort_order>
+                                <action>adminhtml/retailstore/</action>
+                            </manage_retailstore>
+                        </children>
+                    </dever_retailstore>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <dever_retailstore translate="title" module="dever_retailstore">
+                                        <title>Retailstores</title>
+                                    </dever_retailstore>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,121 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+$localPeriod = $this->getRequest()->getParam('period');
+switch ($localPeriod)
+{
+    case '24h':
+    case '7d':
+    case '1m':
+    case '1y':
+    case '2y':
+        break;
+    default:
+        $localPeriod = '2y';
+}
+?>
+<?php if($this->getHtmlId() != 'amounts'){ ?>
+<div>
+    <p class="switcher a-left">
+        <label class="select-style" name="store_switcher">
+            <select name="period" id="order_<?php echo $this->getHtmlId() ?>_period" onchange="changeDiagramsPeriod(this, 'orders','dashboard_diagram_totals_order');">
+                <?php foreach ($this->helper('adminhtml/dashboard_data')->getDatePeriods() as $_value=>$_label): ?>
+                    <?php if(in_array($_value, array('custom'))) continue; ?>
+                    <option value="<?php echo $_value ?>" <?php if($localPeriod==$_value): ?> selected="selected"<?php endif; ?>><?php echo $_label ?></option>
+                <?php endforeach; ?>
+            </select>
+        </label>
+    </p>
+    <br/>
+    <?php
+        $_containerStyle = "width:{$this->getWidth()}px;height:{$this->getHeight()}px; margin:0 auto;";
+    ?>
+    <?php if($this->getCount()): ?>
+        <p style="text-align: center;<?php //echo $_containerStyle?>">
+            <img src="<?php echo $this->getChartUrl(false) ?>" alt="chart" title="chart" style="max-width: 95%; height:auto;" />
+        </p>
+    <?php else: ?>
+        <p class="a-center" ><?php echo $this->__('No Data Found') ?></p>
+    <?php endif; ?>
+</div>
+<?php 
+    }else{
+    $datas = $this->getChartUrl(false);
+    $labely = $datas['value']['revenue'];
+    $a = array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+    if(empty($labely)){
+        $y = json_encode($a);
+    }else{
+        $y = json_encode($labely);
+    }
+    $labelx = $datas['chart'];
+    $x = json_encode($labelx);
+?>
+    <p class="switcher a-left">
+        <label class="select-style" name="store_switcher">
+            <select name="period" id="order_<?php echo $this->getHtmlId() ?>_period" onchange="changeDiagramsPeriod(this,'amounts','dashboard_diagram_totals_amount');">
+                <?php foreach ($this->helper('adminhtml/dashboard_data')->getDatePeriods() as $_value=>$_label): ?>
+                    <?php if(in_array($_value, array('custom'))) continue; ?>
+                    <option value="<?php echo $_value ?>" <?php if($localPeriod==$_value): ?> selected="selected"<?php endif; ?>><?php echo $_label ?></option>
+                <?php endforeach; ?>
+            </select>
+        </label>
+    </p>
+    <br/>
+    <div style="width:100%">
+        <div>
+            <canvas id="canvas" height="280" width="600"></canvas>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var lineChartData = {
+            labels : <?php echo $x; ?>,
+            datasets : [
+                {
+                    label: "My Second dataset",
+                    fillColor: "rgba(210,235,217,0.8)",
+                    strokeColor: "rgba(128,181,143,1)",
+                    pointColor: "rgba(128,181,143,1)",
+                    pointStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "rgba(151,187,205,1)",
+                    data : <?php echo $y; ?>
+                }
+            ]
+
+        }
+
+        var ctx = document.getElementById("canvas").getContext("2d");
+        window.myLine = new Chart(ctx).Line(lineChartData, {
+            responsive: true,
+            scaleFontFamily: "'Roboto'",
+            tooltipTitleFontFamily: "'Roboto'",
+        });        
+    </script>
+    <?php
+}
+?>

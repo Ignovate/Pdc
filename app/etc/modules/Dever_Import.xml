@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Dever_Import>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Dever_Import>
+  </modules>
+</config>

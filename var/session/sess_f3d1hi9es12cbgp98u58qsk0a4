@@ -1,0 +1,1 @@
+customer_admin|a:1:{s:23:"_session_validator_data";a:5:{s:11:"remote_addr";s:10:"27.5.56.52";s:8:"http_via";s:0:"";s:20:"http_x_forwarded_for";s:0:"";s:15:"http_user_agent";s:13:"okhttp/3.10.0";s:24:"session_expire_timestamp";i:1550678627;}}

@@ -1,0 +1,1025 @@
+@media(max-width: 1691px){
+	.grid tr.filter .range .label{
+		width: 37px;
+	}
+	.adminhtml-catalog-product-edit .content-header-floating .content-header .breadcrumb{
+	    display: none;
+	}
+}
+@media only screen and (min-width: 1280px){
+	.nbhd{display:inline-block !important;}
+	.adminhtml-sales-order-view .grid tr.headings th{min-width: 81px;}
+	.adminhtml-sales-order-view .grid tr.headings th:nth-child(9){min-width:100px;}
+	.adminhtml-sales-order-invoice-view .grid tr.headings th, .adminhtml-sales-order-creditmemo-view .grid tr.headings th{min-width: 100px;}
+}
+@media(min-width: 1170px){
+	.mCSB_container{
+		width: 100% !important;
+	}
+	.message-popup .message-popup-content .message{
+		padding-left: 6px;
+	}
+}
+@media(min-width: 869px){
+	.adminhtml-sales-order-create-index #sales_order_create_search_grid .mCSB_container{
+		width: 100% !important;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 1279px) {
+	.top-search .mCSB_container,
+	#grid_tab_ordered_products_content .mCSB_container{
+		width: 100% !important;
+	}	
+}
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+	.form-list td.label{ width:200px;}
+	.giftmessage-order-create .form-list td.label{
+		width: 100px;
+	}
+	.nbhd{display:inline-block !important;}
+	.adminhtml-sales-order-view .grid tr.headings th{min-width: 81px;}
+	.adminhtml-sales-order-view .grid tr.headings th:nth-child(9){min-width:100px;}
+	.adminhtml-sales-order-invoice-view .grid tr.headings th, .adminhtml-sales-order-creditmemo-view .grid tr.headings th{min-width: 100px;}
+}
+@media only screen and (max-width: 959px) {
+	.form-list td.label{ width:auto; }
+	#product_info_tabs_bundle_items_content button.delete span{background:none;}
+	#catalog-wysiwyg-editor,#catalog-wysiwyg-editor_content{width:622px !important; left:84px !important;}
+	.adminhtml-sales-order-shipment-view  .box-left.entry-edit{width:100% !important;}
+	.adminhtml-sales-order-index .grid .headings th.last,.adminhtml-sales-order-index .filter th.last,.adminhtml-sales-order-index tbody td.last{display:none;}
+	.adminhtml-catalog-product-new .side-col{margin-top: 46px;}
+	.adminhtml-catalog-product-new .content-buttons-placeholder, 
+	.adminhtml-catalog-product-edit .content-buttons-placeholder{float:left;}
+	.address-list{padding-right: 15px;}
+    .grid tr.headings th a{padding: 2px 0 1px !important;}.grid tr.filter .range div.date {min-width: 104px;}
+    .grid tr.headings th a.sort-arrow-desc span.sort-title, .grid tr.headings th a.sort-arrow-asc span.sort-title{padding: 3px 5px 2px 0 !important;}
+	.grid tr.headings th span.sort-title{padding: 3px 2px 4px 0;}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#sales_order_grid_table .headings th:nth-child(3){min-width: 100px;}
+	#sales_order_grid_table .headings th:nth-child(5){min-width:54px;}
+	#sales_order_grid_table .headings th:nth-child(6){min-width:53px;}
+	#catalog-wysiwyg-editor,#catalog-wysiwyg-editor_content{width:642px !important; left:50px !important;}
+	.adminhtml-sales-order-index table.actions .pager{float:left;}
+	.adminhtml-catalog-product-index .content-header tbody .a-right{vertical-align: bottom !important;}
+	.form-list td.value input.input-text, .form-list td.value textarea {width: 224px;}
+	.form-list td.value select {width: 224px;}
+	.footer {padding: 15px 1.8em 1.8em;}
+	table.actions td {display: block;}
+	.massaction .separator {padding: 0 2px;}.cms-entry-edit-head{ padding: 1% 5%;}
+	#row_design_theme_template_ua_regexp .value td input{ width: 57px!important;}
+	#sales_creditmemo_grid td.pager,#order_transactions td.pager{float:left;}
+	.link-feed{display:none;}
+	.adminhtml-catalog-product-index table.actions .pager{float: left;width: 75%;}
+	.adminhtml-catalog-product-new .content-buttons-placeholder, .adminhtml-catalog-product-edit .content-buttons-placeholder{float:right !important;}
+}
+@media(max-width: 1500px){
+	.adminhtml-catalog-product-review-edit .content-header-floating .breadcrumb,
+	.adminhtml-newsletter-template-edit .content-header-floating .breadcrumb{
+		display: none;
+	}
+}
+@media(min-width: 768px) and (max-width: 1515px){
+	.adminhtml-customer-edit .form-buttons button,
+	.adminhtml-promo-catalog-edit .form-buttons button{
+		margin-top: 8px;
+	}
+}
+@media(min-width: 768px) and (max-width: 1210px){
+	.adminhtml-newsletter-template-edit .form-buttons button,
+	.adminhtml-system-convert-gui-edit .form-buttons button,
+	.adminhtml-system-email-template-edit .form-buttons button{
+		margin-top: 8px;
+	}
+}
+@media(min-width: 1055px) and (max-width: 1200px){
+	.adminhtml-promo-catalog-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{
+		width: 100% !important;
+	}
+}
+@media(min-width: 768px) and (max-width: 984px){
+	.adminhtml-system-backup-index .form-buttons button{
+		margin-top: 8px;
+	}
+}
+@media(min-width: 768px) and (max-width: 930px){
+	.adminhtml-system-convert-profile-edit .form-buttons button,
+	.adminhtml-system-currency-index .form-buttons button{
+		margin-top: 8px;
+	}
+}
+@media(min-width: 768px) and (max-width: 918px){
+	.adminhtml-cms-page-edit .form-buttons button,
+	.adminhtml-cms-block-edit .form-buttons button{
+		margin-top: 8px;
+	}
+}
+@media(min-width: 768px) and (max-width: 847px){
+	.adminhtml-widget-instance-edit .form-buttons button,
+	.adminhtml-oauth-consumer-new .form-buttons button,
+	.adminhtml-system-variable-edit .form-buttons button{
+		margin-top: 8px;
+	}
+}
+@media(min-width: 911px) and (max-width: 1170px){
+	.adminhtml-sales-order-status-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{
+		width: 100% !important;
+	}
+}
+@media(min-width: 818px) and (max-width: 1170px){
+	.adminhtml-system-currencysymbol-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{
+		width: 100% !important;
+	}
+}
+@media(min-width: 855px) and (max-width: 1200px){
+	.adminhtml-widget-instance-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{
+		width: 100% !important;
+	}
+}
+@media(min-width: 600px) and (max-width: 1170px){
+	.adminhtml-system-email-template-edit .mCSB_horizontal.mCSB_inside > .mCSB_container{
+		width: 100% !important;
+	}
+}
+@media(min-width: 454px) and (max-width: 1170px){
+	.adminhtml-customer-group-index .mCSB_horizontal.mCSB_inside > .mCSB_container{
+		width: 100% !important;
+	}
+}
+@media(min-width: 415px) and (max-width: 1170px){
+	.adminhtml-report-review-customer .mCSB_horizontal.mCSB_inside > .mCSB_container,
+	.adminhtml-system-email-template-edit .mCSB_horizontal.mCSB_inside > .mCSB_container{
+		width: 100% !important;
+	}
+}
+@media(min-width: 300px) and (max-width: 1170px){
+	.adminhtml-api2-attribute-index .mCSB_horizontal.mCSB_inside > .mCSB_container,
+	.adminhtml-permissions-role-index .mCSB_horizontal.mCSB_inside > .mCSB_container{
+		width: 100% !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 2000px){
+	.chart-order-w .dashboard-content .chart-title{
+		top: 0;
+	}
+	.chart-order-w .chart-height{
+		position: relative;
+	}
+	.chart-totals{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1000px){
+	.chart-order-w .chart-height{
+		min-height: 380px;
+	}
+}
+@media (min-width: 1001px) and (max-width: 1200px){
+	.chart-order-w .chart-height{
+		min-height: 430px;
+	}
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+	.chart-order-w .chart-height{
+		min-height: 485px;
+	}
+}
+@media (min-width: 1401px) and (max-width: 1600px){
+	.chart-order-w .chart-height{
+		min-height: 500px;
+	}
+}
+@media (min-width: 1601px) and (max-width: 1800px){
+	.chart-order-w .chart-height{
+		min-height: 505px;
+	}
+}
+@media (min-width: 1801px) and (max-width: 2000px){
+	.chart-order-w .chart-height{
+		min-height: 530px;
+	}
+}
+@media(max-width: 1199px){
+	.db-product-view-w,
+	.top-search-w{
+		margin-bottom: 30px;
+	}
+	.top-report .top-report-content{
+		font-size: 24px;
+	}
+	.top-report .top-report-content i{
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.grid table{
+		max-width: 1199px;
+	}
+	.message-popup{
+		width: 540px;
+		margin:0 0 0 -270px;
+	}
+	.message-popup .message-popup-content .message-text{
+		width: 435px;
+	}
+	.adminhtml-rating-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{
+		width: 100% !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1169px){
+	.adminhtml-sales-order-view .side-col{
+		padding-top: 225px;
+	}
+	.sales-orders.top-title-buttons .form-buttons button{
+		margin-bottom: 10px;
+	}
+}
+@media(max-width: 1169px){
+	.grid table td,
+	.grid table th,
+	.grid tr.filter th{
+		white-space: nowrap;
+	}
+	.grid tr.filter .field-100{
+		max-width: 150px;
+	}
+	.grid tbody td.a-center:nth-child(1){
+		width: 3% !important;
+	}
+	.grid tbody td.a-center:nth-child(1) > input[type="checkbox"]{
+		float: none;
+		display: inline;
+	}
+	.message-popup .message-popup-content{
+		padding: 15px;
+	}
+	.adminhtml-system-email-template-edit .content-header-floating .breadcrumb{
+		display: none;
+	}
+	.adminhtml-system-email-template-edit .content-header-floating .form-buttons button:nth-child(1),
+	.adminhtml-system-email-template-edit .content-header-floating .form-buttons button:nth-child(2)
+	{
+		display: none;
+	}
+}
+@media(max-width: 991px){
+	.top-login{
+		height: 150px;
+	}
+	#page-login .legal{
+		margin-top: 100px;
+	}
+	.dashboard-container .row .top-report:nth-child(1),
+	.dashboard-container .row .top-report:nth-child(2),
+	#diagram_tab_content .row > div:nth-child(1){
+		margin-bottom: 30px;
+	}
+	.header-list li.admin-user-w > span.icon{
+		top: 28%;
+	}
+	.adminhtml-system-config-edit.vertical.fdisable .wrapper .content-header,
+	.adminhtml-catalog-category-edit.vertical.fdisable .wrapper .main-col .content-header,
+	.vertical.fdisable .wrapper .content-header{
+	    padding-left: 0px;
+	}
+	.grid table{
+		max-width: 1000px;
+	}
+	.grid-top .pager{
+		margin-bottom: 10px;
+	}
+	.export.a-right.nb-export{
+		float: left !important;
+	}
+	.sales-orders.top-title-buttons h3.icon-head{
+		padding-top: 0;
+		margin-bottom: 10px;
+	}
+	.sales-orders.top-title-buttons .form-buttons{
+		float: left;
+	}
+	.sales-orders.top-title-buttons .form-buttons button{
+		float: left;
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	.adminhtml-catalog-product-index .content-header .form-buttons button{
+		width: 35px;
+	}
+	.adminhtml-catalog-product-index .content-header .form-buttons button span{
+		font-size: 0;
+	}
+	.adminhtml-catalog-product-index .content-header .form-buttons button > span:before{
+		font-size: 14px;
+		padding-right: 0;
+	}
+	.massaction{
+		height: auto;
+	}
+	.content-header-floating .breadcrumb{
+		display: none;
+	}
+	.grid tr.filter .range div.date input{
+		/*clear: both;*/
+	}
+	.grid tr.filter .range{
+		min-width: 140px;
+	}
+	.grid tr.filter .range div.date{margin-bottom: 5px;}
+	.adminhtml-system-currency-index .form-buttons{
+	    margin-top: 5px;
+	    margin-bottom: 15px;
+	}
+	.sales-orders.top-title-buttons .form-buttons button{
+		margin-bottom: 10px;
+	}
+	#category-edit-container .form-list td.label label{
+		min-width: 200px;
+	}
+}
+@media(min-width: 768px) and (max-width: 930px){
+	.adminhtml-system-currency-index .form-buttons{
+	    margin-top: 30px;
+	    margin-bottom: 15px;
+	}
+}
+@media(min-width: 768px) and (max-width: 1160px){
+	.adminhtml-catalog-product-edit .content-header .form-buttons button{
+		margin-top: 8px;
+	}
+	.adminhtml-catalog-product-edit .content-header-floating .content-header .form-buttons button{
+		display: none;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#add_root_category_button{
+		margin-bottom: 5px;
+	}
+	/*.adminhtml-sales-order-view .side-col,
+	.adminhtml-sales-order-view.vertical .side-col{
+		padding-top: 215px;
+	}*/
+	.adminhtml-catalog-product-attribute-edit .content-header .form-buttons button,
+	.adminhtml-catalog-product-set-edit .content-header .form-buttons button,
+	.adminhtml-catalog-product-review-edit .form-buttons button,
+	.adminhtml-rating-edit .form-buttons button,
+	.adminhtml-promo-quote-edit .form-buttons button{
+		margin-top: 8px;
+	}
+	.adminhtml-catalog-product-attribute-edit .content-header-floating .content-header .form-buttons button,
+	.adminhtml-catalog-product-set-edit .content-header-floating .content-header .form-buttons button,
+	.adminhtml-catalog-product-review-edit .content-header-floating .form-buttons button,
+	.adminhtml-system-variable-edit .content-header-floating .form-buttons button{
+		display: none;
+	}
+}
+@media(min-width: 851px) and (max-width: 991px){
+	.adminhtml-sales-order-invoice-view .content-header-floating .content-header h3,
+	.adminhtml-sales-order-shipment-view .content-header-floating .content-header h3,
+	.adminhtml-sales-order-creditmemo-view .content-header-floating .content-header h3,
+	.adminhtml-sales-order-invoice-view .content-header-floating .content-header .breadcrumb,
+	.adminhtml-sales-order-shipment-view .content-header-floating .content-header .breadcrumb,
+	.adminhtml-sales-order-creditmemo-view .content-header-floating .content-header .breadcrumb,
+	.adminhtml-catalog-product-attribute-index .content-header-floating .content-header h3,
+	.adminhtml-catalog-product-attribute-index .content-header-floating .content-header .breadcrumb{
+		width: 45%;
+	}
+}
+@media(max-width: 850px){
+	.adminhtml-sales-order-invoice-view .content-header-floating .content-header .breadcrumb,
+	.adminhtml-sales-order-shipment-view .content-header-floating .content-header .breadcrumb,
+	.adminhtml-sales-order-creditmemo-view .content-header-floating .content-header .breadcrumb,
+	.adminhtml-sales-recurring-profile-view .content-header .form-buttons button.back,
+	.adminhtml-customer-edit .form-buttons button.back,
+	.adminhtml-promo-catalog-edit .form-buttons button.back,
+	.adminhtml-system-email-template-edit .content-header-floating .form-buttons button{
+		display: none;
+	}
+}
+@media(max-width: 767px){
+	#page-login .legal{
+		margin-top: 100px;
+	}
+	.message-popup{
+		width: 290px;
+		margin:0 0 0 -145px;
+	}
+	.message-popup .message-popup-content .message-text{
+		width: 215px;
+	}
+	.message-popup .message-popup-content .read-more{
+		padding-top: 10px;
+	}
+	.dashboard-container .row .top-report:nth-child(1),
+	.dashboard-container .row .top-report:nth-child(2),
+	.dashboard-container .row .top-report:nth-child(3),
+	.db-product-view-w,
+	.top-search-w,
+	#diagram_tab_content .row > div:nth-child(1),
+	.recent-activity{
+		margin-bottom: 15px;
+	}
+	.header-list li.admin-user-w{
+		border-left: none;
+	}
+	.adminhtml-dashboard-index .content-header,
+	.content-header{
+		height: 68px;
+	}
+	.content-header-floating{display:none !important;}
+	.content-header h3{
+		font-size: 24px;
+	}
+	.adminhtml-dashboard-index .content-header h3,
+	.content-header h3{
+		margin-top: 10px;
+	}
+	.header{
+		height: 64px;
+	}
+	.side-col .switcher label:nth-child(1){
+		width: 100%;
+	}
+	.cmsdas-2, .cmsdas-1{width:100% !important;}
+	.cmsdas-1 .cms-entry-edit-head{margin-bottom:0 !important;}
+	.cmsdas-2 .cms-entry-edit-head {margin-top: 2%;}
+	.cms-entry-edit-head{padding: 2% 4%;}
+	table.actions td.pager{width:60%;}
+	.adminhtml-cache-index .form-list .scope-label{padding-left:0!important;padding-top: 0 !important;  padding-right: 1px;}
+	.massaction td {float: left;width: 100%;}
+	#catalog-wysiwyg-editor, #catalog-wysiwyg-editor_content {
+	    left: -8px !important;
+	    width: 614px !important;
+	}
+	.col-main-title .conf-button{
+		margin-top: 10px;
+	}
+	.logo{
+		width: 30px;
+		background: url(images/logo/admin-logo-small-25bce9.png) left center no-repeat;
+	}
+	.content-header .form-buttons button{
+		text-align: center !important;
+		padding: 0;
+		width: 35px;
+		height: 35px;
+	}
+	.adminhtml-sales-order-invoice-view .content-header .form-buttons button,
+	.adminhtml-sales-order-shipment-view .content-header .form-buttons button,
+	.adminhtml-sales-order-creditmemo-view .content-header .form-buttons button,
+	.adminhtml-sales-order-create-index .content-header .form-buttons button,
+	.adminhtml-sales-recurring-profile-view .content-header .form-buttons button,
+	.adminhtml-tax-rate-add .content-header .form-buttons button,
+	.adminhtml-tax-rate-edit .content-header .form-buttons button,
+	.adminhtml-tax-class-customer-edit .content-header .form-buttons button,
+	.adminhtml-tax-class-product-edit .content-header .form-buttons button,
+	.adminhtml-catalog-product-index .content-header .form-buttons,
+	.adminhtml-catalog-product-edit .form-buttons button,
+	.adminhtml-catalog-product-attribute-edit .form-buttons button,
+	.adminhtml-catalog-product-set-edit .form-buttons button,
+	.adminhtml-urlrewrite-edit .form-buttons button,
+	.adminhtml-catalog-search-edit .form-buttons button,
+	.adminhtml-catalog-product-review-edit .form-buttons button,
+	.adminhtml-rating-edit .form-buttons button,
+	.adminhtml-sitemap-edit .form-buttons button,
+	.adminhtml-customer-edit .form-buttons button,
+	.adminhtml-customer-group-new .form-buttons button,
+	.adminhtml-promo-catalog-edit .form-buttons button,
+	.adminhtml-promo-catalog-index .form-buttons button:nth-child(1),
+	.adminhtml-promo-quote-edit .form-buttons button,
+	.adminhtml-newsletter-template-edit .form-buttons button,
+	.adminhtml-cms-page-edit .form-buttons button,
+	.adminhtml-cms-block-edit .form-buttons button,
+	.adminhtml-widget-instance-edit .form-buttons button,
+	.adminhtml-system-account-index .form-buttons button:first-child,
+	.adminhtml-system-backup-index .form-buttons button,
+	.adminhtml-api-user-edit .form-buttons button,
+	.adminhtml-api-role-editrole .form-buttons button,
+	.adminhtml-api2-role-new .form-buttons button,
+	.adminhtml-api2-attribute-edit .form-buttons button,
+	.adminhtml-oauth-consumer-new .form-buttons button,
+	.adminhtml-system-design-edit .form-buttons button.back,
+	.adminhtml-system-convert-gui-edit .form-buttons button,
+	.adminhtml-system-convert-profile-edit .form-buttons button,
+	.adminhtml-system-email-template-edit .form-buttons button,
+	.adminhtml-system-variable-edit .form-buttons button,
+	.adminhtml-permissions-user-edit .form-buttons button,
+	.adminhtml-permissions-role-index .form-buttons button:first-child,
+	.adminhtml-permissions-role-editrole .form-buttons button,
+	.adminhtml-system-store-editstore .form-buttons button,
+	.adminhtml-sales-order-status-assign .form-buttons button,
+	.adminhtml-sales-order-status-new .form-buttons button,
+	.adminhtml-sales-order-status-edit .form-buttons button{
+		display: none;
+	}
+	.adminhtml-tax-rate-edit .content-header .form-buttons button.save,
+	.adminhtml-tax-rate-add .content-header .form-buttons button.save,
+	.adminhtml-tax-class-customer-edit .content-header .form-buttons button.save,
+	.adminhtml-tax-class-product-edit .content-header .form-buttons button.save,
+	.adminhtml-catalog-product-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-catalog-product-attribute-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-catalog-product-set-edit .form-buttons button.save,
+	.adminhtml-catalog-search-edit .form-buttons button.save,
+	.adminhtml-catalog-product-review-edit .form-buttons button.save,
+	.adminhtml-rating-edit .form-buttons button.save,
+	.adminhtml-sitemap-edit .form-buttons button.save:last-child,
+	.adminhtml-customer-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-customer-group-new .form-buttons button.save,
+	.adminhtml-promo-catalog-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-promo-quote-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-newsletter-template-edit .form-buttons button.save,
+	.adminhtml-cms-page-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-cms-block-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-widget-instance-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-api-user-edit .form-buttons button.save,
+	.adminhtml-api-role-editrole .form-buttons button.save,
+	.adminhtml-api2-role-new .form-buttons button.save,
+	.adminhtml-api2-attribute-edit .form-buttons button.save,
+	.adminhtml-oauth-consumer-new .form-buttons button.save:nth-last-child(2),
+	.adminhtml-system-convert-gui-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-system-convert-profile-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-system-email-template-edit .form-buttons button.save,
+	.adminhtml-system-variable-edit .form-buttons button.save:nth-last-child(2),
+	.adminhtml-permissions-user-edit .form-buttons button.save,
+	.adminhtml-permissions-role-editrole .form-buttons button.save,
+	.adminhtml-system-store-editstore .form-buttons button.save,
+	.adminhtml-sales-order-status-assign .form-buttons button.save,
+	.adminhtml-sales-order-status-new .form-buttons button.save,
+	.adminhtml-sales-order-status-edit .form-buttons button.save{
+		display: block;
+		float: right;
+	}
+	.content-header .form-buttons button span,
+	.adminhtml-tax-rate-edit .content-header .form-buttons button.save,
+	.adminhtml-tax-class-customer-edit .content-header .form-buttons button.save{
+		font-size: 0;
+	}	
+	.filter-actions button span:before,
+	.content-header .form-buttons button span:before,
+	.adminhtml-tax-rate-edit .content-header .form-buttons button.save > span:before,
+	.adminhtml-tax-rate-add .content-header .form-buttons button.save > span:before{
+		padding-right: 0;
+	}
+	.adminhtml-tax-rate-edit .content-header .form-buttons button.save > span:before,
+	.adminhtml-tax-rate-add .content-header .form-buttons button.save > span:before,
+	.adminhtml-tax-class-customer-edit .content-header .form-buttons button > span:before,
+	.adminhtml-tax-class-product-edit .content-header .form-buttons button.save > span:before,
+	.adminhtml-catalog-product-edit .form-buttons button.save > span:before,
+	.adminhtml-catalog-product-attribute-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-catalog-product-set-edit .form-buttons button.save > span:before,
+	.adminhtml-catalog-search-edit .form-buttons button.save > span:before,
+	.adminhtml-catalog-product-review-edit .form-buttons button.save > span:before,
+	.adminhtml-rating-edit .form-buttons button.save > span:before,
+	.adminhtml-sitemap-edit .form-buttons button.save:last-child > span:before,
+	.adminhtml-customer-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-customer-group-new .form-buttons button.save > span:before,
+	.adminhtml-promo-catalog-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-promo-quote-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-newsletter-template-edit .form-buttons button.save > span:before,
+	.adminhtml-cms-page-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-cms-block-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-widget-instance-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-system-account-index .form-buttons button > span:before,
+	.adminhtml-compiler-process-index .form-buttons button > span:before,
+	.adminhtml-api-user-edit .form-buttons button.save > span:before,
+	.adminhtml-api-role-editrole .form-buttons button.save > span:before,
+	.adminhtml-api2-role-new .form-buttons button.save > span:before,
+	.adminhtml-api2-attribute-edit .form-buttons button.save > span:before,
+	.adminhtml-oauth-consumer-new .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-system-design-edit .form-buttons button > span:before,
+	.adminhtml-import-index .form-buttons button > span:before,
+	.adminhtml-system-convert-gui-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-system-convert-profile-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-system-currencysymbol-index .form-buttons button > span:before,
+	.adminhtml-system-email-template-edit .form-buttons button.save > span:before,
+	.adminhtml-system-variable-edit .form-buttons button.save:nth-last-child(2) > span:before,
+	.adminhtml-permissions-user-edit .form-buttons button.save > span:before,
+	.adminhtml-permissions-role-index .form-buttons button.add > span:before,
+	.adminhtml-permissions-role-editrole .form-buttons button.save > span:before,
+	.adminhtml-system-store-editstore .form-buttons button.save > span:before,
+	.adminhtml-sales-order-status-assign .form-buttons button.save > span:before,
+	.adminhtml-sales-order-status-new .form-buttons button.save > span:before,
+	.adminhtml-sales-order-status-edit .form-buttons button.save > span:before{
+		font-size: 14px;
+	}
+	.adminhtml-system-currency-index .form-buttons button{
+		width: auto;
+		padding: 0 15px;
+	}
+	.adminhtml-system-currency-index .form-buttons button span{
+		font-size: 14px;
+	}
+	.adminhtml-system-currency-index .form-buttons button > span:before{
+		padding-right: 7px;
+	}
+	.adminhtml-tax-class-customer-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden,
+	.adminhtml-tax-class-product-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden,
+	.adminhtml-catalog-product-set-index .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{
+		width: 100% !important;
+	}
+	.massaction {
+	    height: auto;
+	}
+	.pager > span.pages-change {
+	    padding-right: 10px;
+	}
+	.pager .pages-change i{
+		margin: 0 5px;
+	}
+	.grid-top .actions .select-style{
+		margin: 0 0 0 5px;
+	}
+	.grid-top .actions .select-style select{
+		width: 55px !important;
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+	}
+	.pager .view-per-page .select-style:after{
+		top: 8px;
+	}
+	.grid-top .select-style:after{
+		width: 14px;
+		right: 6px;
+	}
+	.pager .view-per-page .select-style:after{
+		width: 18px;
+	}
+	.nb-export .ti-export{
+		display: none;
+	}
+	.export.a-right.nb-export{
+		float: left !important;
+	}
+	#diagram_tab_orders_content,
+	#diagram_tab_amounts_content{
+		margin-top: 45px;
+	}
+	#diagram_tab_content p.switcher{
+		text-align: center !important;
+	}
+	.content-header .form-buttons button{
+		margin-top: 15px;
+	}
+	.grid-top .actions .main-btn-w button span{
+		font-size: 0;
+	}
+	.grid-top .actions .main-btn-w button > span:before{
+		font-family: 'themify';
+	    speak: none;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-variant: normal;
+	    text-transform: none;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    font-size: 14px;
+	    text-align: center;
+	    line-height: 20px;
+	}
+	.grid-top .actions .main-btn-w button[title="Reset Filter"] > span:before{
+		content: "\e619";
+	}
+	.grid-top .actions .main-btn-w button.scalable.task > span:before{
+		content: "\e610";
+	}
+	.massaction a {
+		font-size: 13px;
+	}
+	.massaction .entry-edit fieldset .select{
+		width: 142px;
+	}
+	.massaction .right.nb-bntac{
+		float: left;
+		margin-top: 10px;
+	}
+	.massaction .entry-edit .field-row label{
+		margin-left: 0;
+	}
+	.massaction .entry-edit .field-row label.select-style{
+		margin: 0 5px;
+	}
+	#sales_order_view_tabs li:nth-child(1){
+		margin-left: 0;
+	}
+	#sales_order_view_tabs{
+		padding-left: 15px;
+	}
+	.adminhtml-system-config-edit .columns,
+	.adminhtml-catalog-category-edit .columns{
+	    padding-top: 110px;
+	}
+
+	.vertical .middle
+	.adminhtml-customer-edit .columns,
+	.adminhtml-catalog-product-attribute-edit .columns,
+	.adminhtml-rating-edit .columns,
+	.adminhtml-promo-catalog-edit .columns,
+	.adminhtml-promo-quote-edit .columns,
+	.adminhtml-cms-page-edit .columns,
+	.adminhtml-widget-instance-edit .columns,
+	.adminhtml-catalog-product-edit .columns,
+	.adminhtml-api-user-edit .columns,
+	.adminhtml-api-role-editrole .columns,
+	.adminhtml-api2-role-new .columns,
+	.adminhtml-api2-attribute-edit .columns,
+	.adminhtml-system-design-edit .columns,
+	.adminhtml-system-convert-gui-edit .columns,
+	.adminhtml-system-convert-profile-edit .columns,
+	.adminhtml-permissions-user-edit .columns,
+	.adminhtml-permissions-role-editrole .columns,
+	.adminhtml-extension-custom-edit .columns,
+	.adminhtml-catalog-product-new .columns,
+	.adminhtml-sales-recurring-profile-view .columns{
+	    padding-top: 90px;
+	}
+	.form-list td.label label{
+		min-width: 150px;
+	}
+	.edit-attr-set-categories{
+		margin-bottom: 30px;
+	}
+	div.side-col,
+	.adminhtml-sales-order-view .side-col{
+		padding-bottom: 0;
+		margin-bottom: 30px;
+	}
+	body[class*='adminhtml-report'] .content-header .form-buttons button > span:before,
+	.adminhtml-paypal-reports-index .content-header .form-buttons button > span:before{
+		content: "\f06e";
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-size: 20px;
+	}
+	.adminhtml-paypal-reports-index .content-header .form-buttons button > span:before{
+		content: "\f021";
+	}
+	body[class*='adminhtml-report-customer-'] table.actions td{
+		text-align: left !important;
+	}
+	body[class*='adminhtml-report-customer-'] table.actions td:last-child{
+		margin-top: 10px;
+	}
+	.adminhtml-cache-index .form-buttons button.delete > span:before{
+		padding-right: 0;
+	}
+	.adminhtml-system-config-edit .switcher label.select-style{
+		margin-right: 0;
+	}
+	ul.config-tabs{
+		margin-bottom: 0px;
+	}
+	ul.config-tabs dl{
+		margin-bottom: 0;
+		transition: all .3s;
+		-moz-transition: all .3s;
+		-webkit-transition: all .3s;
+	}
+	ul.config-tabs dl dd{
+		display: none;
+		transition: all .3s;
+	}
+	ul.config-tabs dl.active{
+		margin: 15px 0;
+	}
+	ul.config-tabs dl.active dd{
+		display: block;
+	}
+	ul.config-tabs dl.active:first-child(1){
+		margin-top: 0;
+	}
+	.adminhtml-sales-order-view.vertical.fdisable .sales-orders.top-title-buttons{
+		padding-left: 15px !important;
+	}
+}/* end: width < 768px */
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+	.adminhtml-system-config-edit .switcher{
+		margin-top: 5px;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	.form-list td.label{padding-left:0;}
+	.footer{ padding: 15px 1em 1em;}
+	#table_cataloginventory td.value select{ width: 179px !important;}.adminhtml-system-config-edit .form-list td.scope-label{width:140px;}
+	#sales_order_view .box-left,#sales_order_view .box-right{width:100%;}
+	.adminhtml-catalog-product-set-edit button.delete{ padding: 4px 0!important;}
+	.adminhtml-sales-invoice-index .grid .headings th.last,.adminhtml-sales-invoice-index .grid .filter th.last,.adminhtml-sales-invoice-index .grid tbody td.last,
+	.adminhtml-sales-shipment-index .grid .headings th.last,.adminhtml-sales-shipment-index .grid .filter th.last, .adminhtml-sales-shipment-index .grid tbody td.last{display:none;}
+	.adminhtml-sales-shipment-index .grid .headings th:nth-child(2){min-width:71px;}
+	.massaction{height: auto;}
+	.massaction .entry-edit fieldset .select{width: 100px;}	
+	table.actions td.pager{width:56%;}
+	.adminhtml-catalog-product-edit .content-buttons-placeholder{float:right;}
+	.columns .form-list td.value {padding-left: 0 !important;}
+	.header-right { padding: 0 10px 0 0;}
+	.form-list td.value p.note{width: 167px;}
+	.form-list td.scope-label{padding-left:0!important;}
+	#table_cataloginventory td.value select {width: 152px;}
+	.adminhtml-catalog-product-edit .actions td.filter-actions,
+	.adminhtml-catalog-product-edit .actions td.pager{width: 100%;float:left;}
+}
+@media only screen and (max-width: 598px) {
+	.nb-topsearch, .link-feed{display:none;}
+	.diagrams-das #diagram_tab{padding-right: 12px;}
+	.header-right { padding: 0 10px 0 0;}
+	.nbsubmit-comment button{display:block !important;}
+	.footer{padding: 15px 0.8em 0.8em;}
+	table.actions td {float: left;width: 100%;}
+	table.actions td.pager {width: 100%;}
+	#cache_grid_massaction .massaction{display:block;}
+	.adminhtml-cache-index .content-header{margin-bottom: 10px;}
+	.export.a-right.nb-export { padding-bottom: 10px;}
+	.content-header-floating .form-buttons {padding-right: 0;}
+	.content-header-floating .content-header{padding:0;}
+	.adminhtml-sales-order-invoice-view .box-right, 
+	.adminhtml-sales-order-invoice-view .box-left,
+	#sales_order_view .box-right,#sales_order_view .box-left{width:100%;}
+	.adminhtml-sales-order-view .content-header .form-buttons .nb-btnedit,
+	.adminhtml-sales-order-view .content-header .form-buttons .nbhold,
+	.adminhtml-sales-order-view .content-header .form-buttons .nb-btncancel,
+	.adminhtml-sales-order-view .content-header .form-buttons .nb-btnemail,
+	.adminhtml-sales-order-view .content-header .form-buttons .go{display:none;}
+	#submit_comment_button{display:block !important;}
+	#sales_invoice_grid_table thead th:FIRST-CHILD, 
+	#sales_invoice_grid_table tbody tr td:FIRST-CHILD,
+	#sales_invoice_grid_table thead .last,
+	#sales_invoice_grid_table tbody .last,
+	#sales_order_grid .hor-scroll thead .filter,
+	#sales_order_grid .hor-scroll thead .last,
+	#sales_order_grid .hor-scroll tbody tr td:FIRST-CHILD,
+	#sales_order_grid .hor-scroll tbody .last, 
+	#sales_order_grid .hor-scroll thead th:FIRST-CHILD,
+	#sales_order_grid .hor-scroll thead th:nth-child(3), 
+	#sales_order_grid .hor-scroll tbody tr td:nth-child(3){display:none;}
+	#sales_order_grid .hor-scroll table{ border-width: 1px 0 0 1px;}
+	#sales_order_grid .hor-scroll tbody tr{background:#fff;}
+	.grid tr.headings th a.sort-arrow-desc span.sort-title, 
+	.grid tr.headings th a.sort-arrow-asc span.sort-title{background-position: right top;}
+	.sales-orders.top-title-buttons .form-buttons button{
+		margin-bottom: 10px;
+	}
+	.adminhtml-sales-order-view .side-col{
+		padding-top: 225px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 598px) {
+	#cache_grid_massaction .massaction {margin-bottom: 20px;}
+	.legality p{margin-bottom: 0 !important;}
+	.nb-export select{width: 6em!important; }
+	.nborder-box { width: 99.5%;}
+	.nb-export select {width: 5em !important;}
+	#sales_order_grid .hor-scroll thead th a span {padding: 3px 2.9px 4px;}
+	#sales_order_grid .hor-scroll thead th a{padding: 2px 2px 1px 0;}
+	#sales_order_view strong{font-weight: normal;}
+	.adminhtml-sales-order-address .content-header h3{padding-left:0;}
+	#nbclick1{display:block !important; z-index:999;}
+	
+}/* end: 480 <= width < 640px */
+@media only screen and (max-width: 500px){
+	.db-overviews-w .dashboard-header{
+		height: 79px;
+	}
+	.db-overviews-w #grid_tab{
+		top: 33px;
+		left: 0;
+		right: auto;
+	}
+	.content-header .col-xs-6{
+		width: 100%;
+	}
+	.adminhtml-system-config-edit div.side-col{
+		margin-top: 30px;
+	}
+	.adminhtml-system-config-edit .switcher{
+		margin-top: 20px;
+	}
+	.adminhtml-system-config-edit .switcher label{
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 479px) {
+	#nbclick1{display:block !important; z-index:999;}
+	.content-header .breadcrumb li > span h3, .content-header .breadcrumb li > span{
+		max-width: 90px;
+		float: left;
+	}
+	body[class*='adminhtml-report-customer-'] table.actions td:first-child div:last-child{
+		margin-top: 10px;
+	}
+}/* end: width < 480px */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.message-popup{margin:0 0 0 -157px;width: 305px;}
+	.message-popup .message-popup-content{padding:5px;}
+	.nborder-box{width: 99.2%;}
+	.entry-edit-head {overflow: hidden;white-space: nowrap;position: relative;}
+	.entry-edit-head h4:before{
+		content: "";
+	    position: absolute;
+	    background: -webkit-gradient(linear, left top, right top, color-stop(85%, rgba(244,244,244,0)), color-stop(90%, rgba(233, 237, 242,0.7)), to(#E9EDF2));
+	    background: -webkit-linear-gradient(left, rgba(244,244,244,0) 85%, rgba(233, 237, 242,0.7) 90%, #E9EDF2 100%);
+	    background: linear-gradient(to right, rgba(244,244,244,0) 85%,rgba(233, 237, 242,0.7) 90%,#E9EDF2 100%);
+	    top: 1px;
+	    left: 1px;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 10;
+	}
+	.entry-edit-head .form-buttons,
+	.entry-edit-head button,
+	.entry-edit .entry-edit-head .tools{
+		z-index: 1000;
+		position: relative;
+	}
+	.separator{ padding: 0 2px;}
+	.adminhtml-cache-index .form-list button{height: 30px;margin-top: 4px;width: 180px;}
+	#productsReviewedGrid_table thead .headings th:FIRST-CHILD{    min-width: 107px;}
+	#sales_order_grid .hor-scroll thead th a span{padding: 3px 0 4px;}
+	#sales_order_grid .hor-scroll thead th a {padding: 2px 0 1px;}
+	#cache_grid_table thead th:nth-child(4), #cache_grid_table tbody td:nth-child(4) {display:none;}
+	#cache_grid_table table td {font-size: 11px;}
+	.nb-totals-order {width: 70%;}
+	.nbdas-tab{padding:  8px 0 0 2% !important;}
+	#history_form div.f-left{width:100% !important;}
+	.nbsubmit-comment{float:left !important; margin-top: 10px;}
+	.adminhtml-sales-order-view .side-col{
+		padding-top: 240px;
+	}
+	.adminhtml-cache-index .form-buttons,
+	.adminhtml-sales-order-status-index .form-buttons{
+		padding: 0;
+	}
+	.adminhtml-cache-index .form-buttons button:nth-child(1),
+	.adminhtml-sales-order-status-index .form-buttons button:nth-child(1){
+		margin-left: 0;
+	}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 390px){
+	.massaction a {
+	    text-decoration: none;
+	    padding-right: 3px;
+	    display: inline-block;
+	}
+	.massaction .entry-edit .field-row label{
+		margin-left: 0;
+	}
+	.adminhtml-sales-order-view .side-col{
+		padding-top: 285px;
+	}
+	.adminhtml-system-currency-index .form-buttons{
+		margin-top: 20px;
+	}
+	.header-list li.admin-user-w {
+	    padding-left: 0;
+	    padding-right: 20px;
+	}
+	.dashboard_diagram_totals table,
+	.dashboard_diagram_totals table tr{
+		width: 100%;
+	}
+	.dashboard_diagram_totals table,
+	.dashboard_diagram_totals table tr,
+	.dashboard_diagram_totals table td{
+		display: block;
+		float: left;
+	}
+	.dashboard_diagram_totals table td{
+		width: 94px;
+	}
+	.dashboard_diagram_totals{
+		overflow: hidden;
+	}
+	.dashboard_diagram_totals table td:nth-child(3){
+		clear: both;
+	}
+	.pager > span.pages-change{
+		padding-right: 5px;
+	}
+	.grid-top .actions .select-style select{
+		width: 42px !important;
+	}
+	.grid-top .actions .export .select-style select{
+		width: 55px !important;
+	}
+	.massaction .entry-edit fieldset .select {
+	    width: 110px;
+	}
+	.form-list td.value input.input-text, 
+	.form-list td.value textarea,
+	.form-list td.value select{
+		max-width: 230px !important;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 348px){
+	.db-overviews-w .dashboard-header{
+		height: 118px;
+	}
+	.db-overviews-w #grid_tab li{
+		margin-bottom: 5px;
+	}
+}

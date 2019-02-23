@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dever_Api2>
+            <version>0.0.1</version>
+        </Dever_Api2>
+    </modules>
+    <global>
+        <models>
+            <dever_api2>
+                <class>Dever_Api2_Model</class>
+            </dever_api2>
+            <api2>
+                <rewrite>
+                    <router>Dever_Api2_Model_Router</router>
+                    <dispatcher>Dever_Api2_Model_Dispatcher</dispatcher>
+                    <config>Dever_Api2_Model_Config</config>
+                    <server>Dever_Api2_Model_Server</server>
+                    <auth>Dever_Api2_Model_Auth</auth>
+                </rewrite>
+            </api2>
+        </models>
+        <helpers>
+            <dever_api2>
+                <class>Dever_Api2_Helper</class>
+            </dever_api2>
+        </helpers>
+        <api2>
+            <auth_adapters>
+                <key module="api2" translate="label">
+                    <model>dever_api2/auth_adapter_key</model>
+                    <label>key</label>
+                    <enabled>1</enabled>
+                    <order>1</order>
+                </key>
+            </auth_adapters>
+        </api2>
+    </global>
+</config>

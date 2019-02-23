@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**************************************************
+ * Name: Admin responsive admin
+ * Author: The Cmsmart Development Team 
+ * Websites: http://cmsmart.net
+ * Technical Support: Forum - http://cmsmart.net/support
+ * GNU General Public License v3 (http://opensource.org/licenses/GPL-3.0)
+ * Copyright © 2011-2015 Cmsmart.net. All Rights Reserved.
+ * ************************************************* */
+-->
+<layout version="0.1.0">
+    <default translate="label" module="page">
+        <reference name="head">
+            <action method="addCss"><name>bootstrap.min.css</name></action>
+            <action method="addCss"><name>bootstrap_custom.css</name></action>
+            <action method="addCss"><name>themify/themify-icons.css</name></action>
+            <action method="addCss"><name>cmsmart_layout.css</name></action>
+            <action method="addCss"><name>jquery.mCustomScrollbar.css</name></action>
+            <action method="addJs"><script>cmsmart/admintemplate/jquery-1.10.2.min.js</script></action>
+            <action method="addJs"><script>cmsmart/admintemplate/jquery-ui.min.js</script></action>
+            <action method="addJs"><script>cmsmart/admintemplate/jquery.accordion.source.js</script></action>
+            <action method="addJs"><script>cmsmart/admintemplate/tooltips.js</script></action>
+            <action method="addJs"><script>cmsmart/admintemplate/bootstrap.min.js</script></action>
+            <!-- <action method="addJs"><script>cmsmart/admintemplate/jquery.mCustomScrollbar.concat.min.js</script></action>
+            <action method="addJs"><script>cmsmart/admintemplate/scrollbar-call.js</script></action> -->
+            <action method="addLinkRel"><rel>stylesheet</rel><href>//fonts.googleapis.com/css?family=Roboto:400,300,700</href></action>
+            <action method="addLinkRel"><rel>stylesheet</rel><href>//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css</href></action>
+            <!--[if lt IE 8]><!-->
+            <action method="addCss"><name>themify/ie7.css</name></action>
+            <!--<![endif]-->            
+        </reference>
+        <reference name="footer">
+            <action method="setTemplate">
+                <!-- needed because of base/default/layout/cmsmartadmintheme.xml -->
+                <template>page/footer.phtml</template>
+            </action>
+        </reference>
+    </default>
+</layout>

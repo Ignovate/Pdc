@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addCss"><stylesheet>algoliasearch/algoliasearch.css</stylesheet></action>
+        </reference>
+
+        <reference name="notifications">
+            <block type="algoliasearch/adminhtml_notifications" name="algoliasearch_notifications" template="algoliasearch/notifications.phtml"/>
+        </reference>
+    </default>
+
+    <algolia_bundle_handle>
+        <reference name="head">
+            <action method="addJs"><script>algoliasearch/internals/adminhtml/algoliaAdminBundle.min.js</script></action>
+            <action method="addJs"><script>algoliasearch/internals/adminhtml/admin_scripts.js</script></action>
+        </reference>
+
+        <reference name="before_body_end">
+            <block type="core/template" template="algoliasearch/adminjs.phtml" name="algolia-admin-beforebodyend"/>
+        </reference>
+    </algolia_bundle_handle>
+</layout>

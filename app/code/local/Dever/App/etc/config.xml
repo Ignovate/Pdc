@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dever_App>
+            <version>0.0.1</version>
+        </Dever_App>
+    </modules>
+    <global>
+        <models>
+            <dever_app>
+                <class>Dever_App_Model</class>
+            </dever_app>
+        </models>
+        <helpers>
+            <dever_app>
+                <class>Dever_App_Helper</class>
+            </dever_app>
+        </helpers>
+    </global>
+</config>

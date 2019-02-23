@@ -1,0 +1,4843 @@
+2018-11-12T10:35:05+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12207@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12207@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12207@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-12T10:35:05+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-12T10:39:22+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-12T10:39:22+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:35:57+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:35:57+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:37:36+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:37:36+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:39:56+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:39:56+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:41:56+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?TG9rZXNoIFI=\?= \<imlokkireddy@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => imlokkireddy@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [imlokkireddy@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Lokesh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Loki@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:41:56+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:44:11+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:44:11+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:46:16+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?QmFsYWppIEs=\?= \<finance@gaiahealthcare.ae>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBCYWxhamkgSw==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => finance@gaiahealthcare.ae
+        )
+
+    [_recipients:protected] => Array
+        (
+            [finance@gaiahealthcare.ae] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBCYWxhamkgSw==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Balaji K,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Admin@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:46:16+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:48:03+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?QmFsYWppIEs=\?= \<finance@gaiahealthcare.ae>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBCYWxhamkgSw==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => finance@gaiahealthcare.ae
+        )
+
+    [_recipients:protected] => Array
+        (
+            [finance@gaiahealthcare.ae] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBCYWxhamkgSw==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Balaji K,\</h1>
+            \<p>\<strong>Your new password is:\</strong> admin@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-26T09:48:03+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-26T09:50:39+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-11-28T13:52:35+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-28T13:52:35+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-29T09:07:40+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?TG9rZXNoIFI=\?= \<imlokkireddy@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => imlokkireddy@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [imlokkireddy@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Lokesh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Loki@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-29T09:07:41+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-29T15:57:40+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> suresh@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-29T15:57:40+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-30T05:20:39+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?TG9rZXNoIFI=\?= \<imlokkireddy@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => imlokkireddy@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [imlokkireddy@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Lokesh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Lokki@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-30T05:20:39+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-11-30T05:20:46+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?TG9rZXNoIFI=\?= \<imlokkireddy@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => imlokkireddy@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [imlokkireddy@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMb2tlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Lokesh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Lokki@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-11-30T05:20:46+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T06:20:06+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U3VyeWEgYW5hbmQ=\?= \<rtr.surya92@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgU3VyeWEgYW5hbmQh\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => rtr.surya92@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [rtr.surya92@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgU3VyeWEgYW5hbmQh\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to Main Website Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: rtr.surya92@gmail.com\<br>\<strong>Password\</strong>: password@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Main Website Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T06:20:06+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T06:58:05+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U2l2YSBOZXNhbg==\?= \<nesancse17@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgU2l2YSBOZXNhbiE=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => nesancse17@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [nesancse17@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgU2l2YSBOZXNhbiE=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to AgentX Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: nesancse17@gmail.com\<br>\<strong>Password\</strong>: Password@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T06:58:05+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T07:38:09+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpY2sgUmFtYWR1cmFp\?= \<karthick@ignovatesolutions.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgS2FydGhpY2sgUmFtYWR1cmFpIQ==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => karthick@ignovatesolutions.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [karthick@ignovatesolutions.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgS2FydGhpY2sgUmFtYWR1cmFpIQ==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to AgentX Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: karthick@ignovatesolutions.com\<br>\<strong>Password\</strong>: Password@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T07:38:09+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T11:02:15+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T11:02:15+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T11:02:22+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T11:02:22+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T11:02:28+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?c3VyZXNoIFI=\?= \<sureshrajendren12297@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sureshrajendren12297@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sureshrajendren12297@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBzdXJlc2ggUg==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>suresh R,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T11:02:28+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-03T13:14:19+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U3VyeWFuYW5kIFByZW1rdW1hcg==\?= \<suryanand000@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgU3VyeWFuYW5kIFByZW1rdW1hciE=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => suryanand000@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [suryanand000@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgU3VyeWFuYW5kIFByZW1rdW1hciE=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to Main Website Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: suryanand000@gmail.com\<br>\<strong>Password\</strong>: Password@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Main Website Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-03T13:14:19+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-04T10:49:23+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpY2sgR2FpYQ==\?= \<karthick@gaiahealthcare.ae>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?QWdlbnRYIFN0b3JlOiBTaGlwbWVudCAjIEFYU0gxMDAwMDAwMjUgZm9yIE9yZGVyICMgQVgxMDAwMDAwNDM=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => karthick@gaiahealthcare.ae
+        )
+
+    [_recipients:protected] => Array
+        (
+            [karthick@gaiahealthcare.ae] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?QWdlbnRYIFN0b3JlOiBTaGlwbWVudCAjIEFYU0gxMDAwMDAwMjUgZm9yIE9yZGVyICMgQVgxMDAwMDAwNDM=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">
+\<tr>
+\<td>
+            \<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="email-heading">
+                        \<h1>Thank you for your order from AgentX Store.\</h1>
+                        \<p>You can check the status of your order in the app.\</p>
+                    \</td>
+                    \<td class="store-info">
+                        \<h4>Order Questions\?\</h4>
+                        \<p>
+                            
+                            
+                            
+                            \<b>Email:\</b> \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                            
+                        \</p>
+                    \</td>
+                \</tr>\</table>
+\</td>
+    \</tr>
+\<tr>
+\<td class="order-details">
+            \<h3>Your Shipment \<span class="no-link">#AXSH100000025\</span>
+\</h3>
+            \<p>Order \<span class="no-link">#AX100000043\</span>\</p>
+        \</td>
+    \</tr>
+\<tr class="order-information">
+\<td>
+            
+            
+
+
+            \<table class="items" cellpadding="0" cellspacing="0" border="0">
+\<thead>\<tr>
+\<th class="cell-name">
+                Items in your order            \</th>
+            \<th class="cell-name align-center">
+                Sku            \</th>
+            \<th class="cell-name align-right">
+                Qty            \</th>
+        \</tr>\</thead>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">Eno Lemon 150GM\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT638\</td>
+        \<td class="cell-content align-right">1\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">Eno Lemon Sachet 10S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT639\</td>
+        \<td class="cell-content align-right">1\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Ace Anti Oxidant Tablet 30S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT2318\</td>
+        \<td class="cell-content align-right">10\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Calcium 600 +D Tablet 75S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT2320\</td>
+        \<td class="cell-content align-right">10\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Arthri-Flex Tablet 120S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT5396\</td>
+        \<td class="cell-content align-right">10\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Acidophilus Probiotic Blend Capsule 150S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT13600\</td>
+        \<td class="cell-content align-right">18\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Calcium Plus Tablet 120S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT13601\</td>
+        \<td class="cell-content align-right">5\</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century B Complex With C Capsule 100S\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">AGNT14061\</td>
+        \<td class="cell-content align-right">20\</td>
+    \</tr>\</tbody>
+\</table>
+\<table cellpadding="0" cellspacing="0" border="0">
+\<tr>
+\<td class="address-details">
+                        \<h6>Bill to:\</h6>
+                        \<p>\<span class="no-link">Karthick Gaia\<br>
+
+Life Pharmacy\<br>
+
+
+
+Dubai,  25570\<br>
+United Arab Emirates\<br>
+T: +91 98946 64060
+
+\</span>\</p>
+                    \</td>
+                    
+                    \<td class="address-details">
+                        \<h6>Ship to:\</h6>
+                        \<p>\<span class="no-link">Karthick Gaia\<br>
+
+Life Pharmacy\<br>
+
+
+
+Dubai,  25570\<br>
+United Arab Emirates\<br>
+T: +91 98946 64060
+
+\</span>\</p>
+                    \</td>
+                    
+                \</tr>
+\<tr>
+\<td class="method-info">
+                        \<h6>Shipping method:\</h6>
+                        \<p>Free Shipping - Free\</p>
+                    \</td>
+                    
+                    \<td class="method-info">
+                        \<h6>Payment method:\</h6>
+                        \<p class="subtitle">\<strong>Cash On Delivery\</strong>\</p>
+
+
+
+                    \</td>
+                \</tr>
+\</table>
+\</td>
+    \</tr>
+\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-04T10:49:23+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-05T09:46:22+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U3VyeWFuYW5kIFByZW1rdW1hciBB\?= \<suryanandignovate@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgU3VyeWFuYW5kIFByZW1rdW1hciBBIQ==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => suryanandignovate@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [suryanandignovate@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgU3VyeWFuYW5kIFByZW1rdW1hciBBIQ==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to Main Website Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: suryanandignovate@gmail.com\<br>\<strong>Password\</strong>: Password@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Main Website Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-05T09:46:22+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-08T09:59:48+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-08T13:26:07+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-08T13:36:06+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpayBUZXN0\?= \<smartjk@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgS2FydGhpayBUZXN0IQ==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => smartjk@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [smartjk@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgS2FydGhpayBUZXN0IQ==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to Main Website Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: smartjk@gmail.com\<br>\<strong>Password\</strong>: welcome@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Main Website Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-08T13:36:07+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-10T06:50:33+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-12T13:25:49+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?THVpc0xvcGVzIEFnZW50WA==\?= \<luislopes@brava43.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?V2VsY29tZSwgTHVpc0xvcGVzIEFnZW50WCE=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => luislopes@brava43.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [luislopes@brava43.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?V2VsY29tZSwgTHVpc0xvcGVzIEFnZW50WCE=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Welcome to AgentX Store.\</h1>
+            \<p class="highlighted-text">
+                Use the following values to log in the app:\<br>\<strong>Email\</strong>: luislopes@brava43.com\<br>\<strong>Password\</strong>: Password@123
+            \</p>
+            \<p>When you log in to your account, you will be able to do the following:\</p>
+            \<ul>
+\<li>Proceed through checkout faster when making a purchase\</li>
+                \<li>Check the status of orders\</li>
+                \<li>View past orders\</li>
+            \</ul>
+\<p>
+                If you have any questions, please feel free to contact us at
+                \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                .
+            \</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-12T13:25:49+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-12T13:28:44+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?THVpc0xvcGVzIEFnZW50WA==\?= \<luislopes@brava43.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMdWlzTG9wZXMgQWdlbnRY\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => luislopes@brava43.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [luislopes@brava43.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMdWlzTG9wZXMgQWdlbnRY\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>LuisLopes AgentX,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-12T13:28:44+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-12T13:28:53+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?THVpc0xvcGVzIEFnZW50WA==\?= \<luislopes@brava43.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMdWlzTG9wZXMgQWdlbnRY\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => luislopes@brava43.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [luislopes@brava43.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBMdWlzTG9wZXMgQWdlbnRY\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>LuisLopes AgentX,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-12T13:28:53+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-18T18:13:40+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpY2sgR0FJQQ==\?= \<karthickgaia@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGljayBHQUlB\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => karthickgaia@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [karthickgaia@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGljayBHQUlB\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Karthick GAIA,\</h1>
+            \<p>\<strong>Your new password is:\</strong> welcome@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-18T18:13:40+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-18T18:16:45+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpY2sgR0FJQQ==\?= \<karthickgaia@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGljayBHQUlB\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => karthickgaia@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [karthickgaia@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGljayBHQUlB\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Karthick GAIA,\</h1>
+            \<p>\<strong>Your new password is:\</strong> welcome123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-18T18:16:45+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-18T18:16:52+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpY2sgR0FJQQ==\?= \<karthickgaia@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGljayBHQUlB\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => karthickgaia@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [karthickgaia@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGljayBHQUlB\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Karthick GAIA,\</h1>
+            \<p>\<strong>Your new password is:\</strong> welcome123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-18T18:16:52+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-22T17:22:11+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-24T11:17:22+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U3VyZXNoIEt1bWFy\?= \<suresh@ignovatesolutions.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBTdXJlc2ggS3VtYXI=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => suresh@ignovatesolutions.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [suresh@ignovatesolutions.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBTdXJlc2ggS3VtYXI=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Suresh Kumar,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2018-12-24T11:17:22+00:00 DEBUG (7): Using Custom SMTP Transport.
+2018-12-24T11:39:53+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-24T11:44:30+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-24T12:07:21+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2018-12-24T13:15:13+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2019-01-08T06:21:05+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2019-01-08T06:22:44+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2019-01-09T11:19:03+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?S2FydGhpayBUZXN0\?= \<smartjk@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGlrIFRlc3Q=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => smartjk@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [smartjk@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBLYXJ0aGlrIFRlc3Q=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Karthik Test,\</h1>
+            \<p>\<strong>Your new password is:\</strong> test@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-01-09T11:19:04+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-01-10T04:50:24+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?QWdlbnQgWA==\?= \<agentx@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBBZ2VudCBY\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => agentx@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [agentx@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBBZ2VudCBY\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Agent X,\</h1>
+            \<p>\<strong>Your new password is:\</strong> welcome123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-01-10T04:50:25+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-02-05T14:01:52+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?RGluZXNoIEt1bWFy\?= \<dinesh@gaiahealthcare.ae>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBEaW5lc2ggS3VtYXI=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => dinesh@gaiahealthcare.ae
+        )
+
+    [_recipients:protected] => Array
+        (
+            [dinesh@gaiahealthcare.ae] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBEaW5lc2ggS3VtYXI=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Dinesh Kumar,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, Default!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-02-05T14:01:52+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-02-05T14:04:12+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U2FyYSBHQUlB\?= \<sarawf@gaiahealthcare.ae>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBTYXJhIEdBSUE=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sarawf@gaiahealthcare.ae
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sarawf@gaiahealthcare.ae] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBTYXJhIEdBSUE=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Sara GAIA,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-02-05T14:04:12+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-02-12T07:41:40+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?QWdlbnQgWA==\?= \<agentx@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBBZ2VudCBY\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => agentx@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [agentx@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBBZ2VudCBY\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Agent X,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/agentx/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, AgentX Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-02-12T07:41:40+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-02-14T06:04:44+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?VGVzdCBOb3RpZmljYXRpb25z\?= \<fcmtest@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBUZXN0IE5vdGlmaWNhdGlvbnM=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => fcmtest@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [fcmtest@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBUZXN0IE5vdGlmaWNhdGlvbnM=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Test Notifications,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/pdc/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, PDC Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-02-14T06:04:44+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-02-18T09:00:29+00:00 DEBUG (7): Email not sent immediately, queued for sending.
+2019-02-20T10:03:47+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?VGVzdCBOb3RpZmljYXRpb25z\?= \<fcmtest@gmail.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?UERDIFN0b3JlOiBJbnZvaWNlICMgQVhJTjEwMDAwMDA4OSBmb3IgT3JkZXIgIyBBWDEwMDAwMDM5OA==\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => AgentX \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => fcmtest@gmail.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [fcmtest@gmail.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?UERDIFN0b3JlOiBJbnZvaWNlICMgQVhJTjEwMDAwMDA4OSBmb3IgT3JkZXIgIyBBWDEwMDAwMDM5OA==\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">
+\<tr>
+\<td>
+            \<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="email-heading">
+                        \<h1>Thank you for your order from PDC Store.\</h1>
+                        \<p>You can check the status of your order by logging into your app.\</p>
+                    \</td>
+                    \<td class="store-info">
+                        \<h4>Order Questions\?\</h4>
+                        \<p>
+                            
+                            
+                            
+                            \<b>Email:\</b> \<a href="mailto:info@melonberries.com">info@melonberries.com\</a>
+                            
+                        \</p>
+                    \</td>
+                \</tr>\</table>
+\</td>
+    \</tr>
+\<tr>
+\<td class="order-details">
+            \<h3>Your Invoice \<span class="no-link">#AXIN100000089\</span>
+\</h3>
+            \<p>Order \<span class="no-link">#AX100000398\</span>\</p>
+        \</td>
+    \</tr>
+\<tr class="order-information">
+\<td>
+            
+            
+
+            \<table class="items" cellpadding="0" cellspacing="0" border="0">
+\<thead>\<tr>
+\<th class="cell-name">
+                    Items in your order                \</th>
+                \<th class="cell-name align-center">
+                    Qty                \</th>
+                \<th class="cell-name align-right">
+                    Price                \</th>
+            \</tr>\</thead>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Ace Anti Oxidant Tablet 30S\</p>
+            \<p class="sku">SKU: AGNT2318\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">50\</td>
+        \<td class="cell-content align-right">
+                                                                \<span class="price">AED0.00\</span>                
+
+                            
+
+                    \</td>
+    \</tr>\</tbody>
+\<tbody>\<tr>
+\<td class="cell-content product-info">
+            \<p class="product-name">21 Century Acidophilus Probiotic Blend Capsule 150S\</p>
+            \<p class="sku">SKU: AGNT13600\</p>
+                                                                                    \</td>
+        \<td class="cell-content align-center">50\</td>
+        \<td class="cell-content align-right">
+                                                                \<span class="price">AED0.00\</span>                
+
+                            
+
+                    \</td>
+    \</tr>\</tbody>
+\<tfoot>\<table class="table-totals" cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="padding-totals">
+            \<table cellpadding="0" cellspacing="0" border="0">\</table>
+\</td>
+    \</tr>\</table>\</tfoot>
+\</table>
+\<table cellpadding="0" cellspacing="0" border="0">
+\<tr>
+\<td class="address-details">
+                        \<h6>Bill to:\</h6>
+                        \<p>\<span class="no-link">Test Notifications\<br>
+
+Test\<br>
+
+
+
+Tet,  Georgia, 621356\<br>
+United States\<br>
+T: 9840297767
+
+\</span>\</p>
+                    \</td>
+                    
+                    \<td class="address-details">
+                        \<h6>Ship to:\</h6>
+                        \<p>\<span class="no-link">Test Notifications\<br>
+
+Test\<br>
+
+
+
+Tet,  Georgia, 621356\<br>
+United States\<br>
+T: 9840297767
+
+\</span>\</p>
+                    \</td>
+                    
+                \</tr>
+\<tr>
+\<td class="method-info">
+                        \<h6>Shipping method:\</h6>
+                        \<p>Free Shipping - Free\</p>
+                    \</td>
+                    
+                    \<td class="method-info">
+                        \<h6>Payment method:\</h6>
+                        \<p class="subtitle">\<strong>Cash On Delivery\</strong>\</p>
+
+
+
+                    \</td>
+                \</tr>
+\</table>
+\</td>
+    \</tr>
+\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, PDC Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-02-20T10:03:47+00:00 DEBUG (7): Using Custom SMTP Transport.
+2019-02-21T10:36:49+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =\?utf-8\?B\?U2FyYSBHQUlB\?= \<sarawf@gaiahealthcare.ae>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBTYXJhIEdBSUE=\?=
+                )
+
+            [From] => Array
+                (
+                    [0] => CustomerSupport \<info@melonberries.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => info@melonberries.com
+    [_to:protected] => Array
+        (
+            [0] => sarawf@gaiahealthcare.ae
+        )
+
+    [_recipients:protected] => Array
+        (
+            [sarawf@gaiahealthcare.ae] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =\?utf-8\?B\?TmV3IHBhc3N3b3JkIGZvciBTYXJhIEdBSUE=\?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+\<html xmlns="http://www.w3.org/1999/xhtml">
+\<head>
+\<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+\<meta name="viewport" content="initial-scale=1.0, width=device-width">
+\</head>
+\<body>
+\<style type="text/css">
+
+
+\</style>
+\<!-- Begin wrapper table -->\<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">\<tr>
+\<td valign="top" class="container-td" align="center">
+            \<table cellpadding="0" cellspacing="0" border="0" align="center" class="container-table">
+\<tr>
+\<td>
+                        \<table cellpadding="0" cellspacing="0" border="0" class="logo-container">\<tr>
+\<td class="logo">
+                                   
+                                \</td>
+                            \</tr>\</table>
+\</td>
+                \</tr>
+\<tr>
+\<td valign="top" class="top-content">
+                    \<!-- Begin Content -->
+
+
+
+\<table cellpadding="0" cellspacing="0" border="0">\<tr>
+\<td class="action-content">
+            \<h1>Sara GAIA,\</h1>
+            \<p>\<strong>Your new password is:\</strong> Password@123\</p>
+            \<p>You can change your password at any time by logging into \<a href="https://www.melonberries.com/pdc/index.php/customer/account/">your account\</a>.\</p>
+        \</td>
+    \</tr>\</table>
+\<!-- End Content -->
+\</td>
+                \</tr>
+\</table>
+\<h5 class="closing-text">Thank you, PDC Store!\</h5>
+        \</td>
+    \</tr>\</table>
+\<!-- End wrapper table -->
+\</body>
+\</html>
+
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2019-02-21T10:36:49+00:00 DEBUG (7): Using Custom SMTP Transport.

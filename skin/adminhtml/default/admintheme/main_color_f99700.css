@@ -1,0 +1,89 @@
+.logo{
+	background: url(images/logo/admin-logo-f99700.png) left center no-repeat;
+}
+.sales-orders.top-title-buttons h3.icon-head,
+ul.tabs a:hover span,
+ul.tabs a:hover.active span,
+.header-list li span[class*='ti'],
+.subdue,
+.breadcrumb>li span,
+.breadcrumb>li span > h3, 
+.breadcrumb>li span > #order-header h3, 
+.breadcrumb>li span > #order-header,
+#accordion li a.active,
+#accordion li a.active:before,
+#accordion li.active >a.active,
+#accordion li.active >a.active:before,
+#nav li.level0:hover > a,
+#nav li.level0:hover > a:before,
+#recent_activity td .name > span,
+#dashboard_diagram_totals td span,
+.create-order-sidebar-block .head a:before,
+.emph, .accent,
+.grid tr.headings th a:hover,
+#nbclick:hover i,
+.calendar tbody .day.weekend{
+	color: #f99700;
+}
+select,
+.select-style:after,
+#history_form > .field-row select,
+button,
+.form-button,
+#page-login .form-button,
+.top-report .top-report-content,
+.chart-order-w .dashboard-content .switcher .select-style:after,
+.chart-order-w .dashboard-content .switcher select,
+#sales_order_grid .grid tbody td.last a:before,
+.adminhtml-catalog-product-index tbody td.last a:before,
+#nav li.active,
+.dashboard-container .grid tbody td.last > span,
+.adminhtml-sales-invoice-index tbody td.last a:before,
+.adminhtml-sales-shipment-index tbody td.last a:before,
+.adminhtml-sales-creditmemo-index tbody td.last a:before,
+.adminhtml-urlrewrite-index tbody td.last a:before,
+.adminhtml-catalog-search-index tbody td.last a:before,
+.adminhtml-catalog-product-review-index tbody td.last a:before,
+.adminhtml-customer-index tbody td.last a:before,
+.adminhtml-cms-page-index tbody td.last a:before,
+.adminhtml-report-sales-w.switcher select,
+.adminhtml-report-sales-w.switcher .select-style:after,
+.adminhtml-system-convert-gui-index tbody td.last a:before,
+.categories-side-col .switcher .select-style:after,
+.categories-side-col .switcher select,
+.calendar thead .name,
+.calendar table .wn,
+.calendar tfoot .ttip,
+.calendar thead .title,
+.calendar tbody td.selected,
+.calendar tbody td.hilite,
+.calendar thead .hilite
+{
+	background-color: #f99700;
+}
+button:hover,
+button:active,
+.dashboard-container .grid tbody tr.on-mouse td.last > span{
+	/*edit*/
+	background: #ef9000;
+}
+.nb-topsearch fieldset input.input-text,
+.calendar thead .title{
+	border: 1px solid #f99700;
+}
+.top-report .top-report-head{
+	/*edit*/
+	background: #ef9000;
+}
+.top-report .top-report-content i{
+	color: #f19200;
+}
+#accordion li a.active{
+	border-left: 3px solid #f99700;
+}
+@media(max-width: 767px){
+	.logo{
+		width: 30px;
+		background: url(images/logo/admin-logo-small-f99700.png) left center no-repeat;
+	}
+}

@@ -1,0 +1,2 @@
+category_ids,sku,name,product_name,price,brand,supplier,mode,description,short_description,image,small_image,thumbnail,qty,min_qty,is_in_stock,store_id,store,websites,attribute_set,type,weight,status,visibility,tax_class_id
+8,AGNT900235,Cal- 4,Cal- 4,0,MEDICINES,ALPHAMED,BestSeller,Cal- 4,Cal- 4,/agentx.png,/agentx.png,/agentx.png,100000,0,1,0,admin,pdc,Default,simple,1,Enabled,"Catalog, Search",Shipping

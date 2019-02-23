@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Dever_Oauth>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Dever_Oauth>
+  </modules>
+</config>

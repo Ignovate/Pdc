@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_bulk_index>
+        <reference name="content">
+            <block type="dever_sales/adminhtml_bulk" name="dever_sales_bulk" />
+        </reference>
+    </adminhtml_bulk_index>
+
+    <adminhtml_bulk_edit>
+        <reference name="content">
+            <block type="dever_sales/adminhtml_bulk_edit" name="dever_sales_bulk_edit" />
+        </reference>
+    </adminhtml_bulk_edit>
+</layout>

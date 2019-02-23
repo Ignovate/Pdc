@@ -1,0 +1,108 @@
+<?php
+/**************************************************
+ * Name: Admin responsive admin
+ * Author: The Cmsmart Development Team 
+ * Websites: http://cmsmart.net
+ * Technical Support: Forum - http://cmsmart.net/support
+ * GNU General Public License v3 (http://opensource.org/licenses/GPL-3.0)
+ * Copyright © 2011-2015 Cmsmart.net. All Rights Reserved.
+ * ************************************************* */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+    <?php echo $this->getChildHtml('head') ?>
+</head>
+<script>
+jQuery(function($) {
+	$('.nav-bar1 ul#nav').attr('id', 'accordion');
+	if ($(window).width() < 600 )
+	{
+		$('.adminhtml-dashboard-index fieldset tbody tr').attr('title', '');
+		$('.adminhtml-dashboard-index #grid_tab_content tbody tr').attr('title', '');
+		
+	}
+	$('#accordion').accordion();
+	jQuery('#nbclick1').click(function() {
+
+		var effect = 'slide';
+	   // Set the options for the effect type chosen
+	   var options = { direction: 'left' };
+	   // Set the duration (default: 400 milliseconds)
+	   var duration = 700;	 
+	   $('.nb-navbar1').toggle(effect, options, duration);			   
+	});	
+    jQuery('#nbclick').click(function() {
+	   var effect = 'slide';
+	   // Set the options for the effect type chosen
+	   var options = { direction: 'left' };
+	   // Set the duration (default: 400 milliseconds)
+	   var duration = 700;
+       $('.middle').toggleClass('mdisable');
+       $('.nav-bar1').toggleClass('disable');
+       $('body').toggleClass('fdisable');
+	});
+
+});
+jQuery(document).ready(function(){
+    //Set height for vertical menu
+    var delay=1000; //1 seconds
+    setTimeout(function(){
+        var whs = jQuery('.wrapper').height();
+        var wh = whs - 94;
+        jQuery('#accordion').css('min-height', wh);
+    }, delay);
+});
+</script>
+<?php 
+    $menu = "horizontal";
+    $admintheme_menu = Mage::getStoreConfig('cmsmart_admintheme/layout');
+    if($admintheme_menu){
+        $menu = $admintheme_menu['menu'];
+    }
+?>
+<body id="html-body"<?php echo $this->getBodyClass() ? ' class="fdisable ' . $menu .$this->getBodyClass() . '"' : 'class="fdisable ' . $menu . '"'; ?>>
+<?php echo $this->getChildHtml('notification_window'); ?>
+<div class="wrapper ">
+    <?php echo $this->getChildHtml('global_notices') ?>
+        <div class="header">
+            <?php echo $this->getChildHtml('header') ?>
+        <div class="clear"></div>
+            <?php echo $this->getChildHtml('menu') ?>
+        </div>
+        <?php echo $this->getChildHtml('notifications'); ?>
+        <div class="middle mdisable" id="anchor-content">
+            <div id="page:main-container">
+            <?php if($this->getChildHtml('left')): ?>
+                <div class="columns <?php echo $this->getContainerCssClass() ?> container">
+                    <div class="row">
+                        <div class="side-col col-xlg-2 col-lg-3 col-sm-4 col-xs-12" id="page:left">
+                            <?php echo $this->getChildHtml('left') ?>
+                        </div>
+                        <div class="main-col col-xlg-10 col-lg-9 col-sm-8 col-xs-12" id="content">
+                            <div class="main-col-inner">
+                                <div id="messages"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+                                <?php echo $this->getChildHtml('content') ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <?php else: ?>
+                <div id="messages"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+                <?php echo $this->getChildHtml('content') ?>
+            <?php endif; ?>
+            </div>
+        </div>
+        <div class="footer">
+            <?php echo $this->getChildHtml('footer') ?>
+        </div>
+    </div>
+    <?php echo $this->getChildHtml('js') ?>
+    <?php echo $this->getChildHtml('profiler') ?>
+    <div id="loading-mask" style="display:none">
+        <p class="loader" id="loading_mask_loader"><img src="<?php echo $this->getSkinUrl('images/ajax-loader-tr.gif') ?>" alt="<?php echo Mage::helper('adminhtml')->__('Loading...') ?>"/><br/><?php echo Mage::helper('adminhtml')->__('Please wait...') ?></p>
+    </div>
+    <?php echo $this->getChildHtml('before_body_end') ?>
+</body>
+</html>

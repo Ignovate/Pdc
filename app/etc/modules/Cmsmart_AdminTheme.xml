@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cmsmart_AdminTheme>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Cmsmart_AdminTheme>
+    </modules>
+</config>

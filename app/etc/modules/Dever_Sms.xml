@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Dever_Sms>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Dever_Sms>
+  </modules>
+</config>

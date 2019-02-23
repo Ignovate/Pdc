@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dever_Sms>
+            <version>0.0.1</version>
+        </Dever_Sms>
+    </modules>
+    <global>
+        <helpers>
+            <dever_sms>
+                <class>Dever_Sms_Helper</class>
+            </dever_sms>
+        </helpers>
+    </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <ignovateconfig>
+                                            <title>All</title>
+                                        </ignovateconfig>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

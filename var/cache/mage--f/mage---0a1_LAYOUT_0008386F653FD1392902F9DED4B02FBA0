@@ -1,0 +1,3 @@
+<block type="core/template" name="formkey" as="formkey" template="formkey.phtml"/>
+<update handle="formkey"/>
+<block type="adminhtml/sales_order_grid" name="sales_order.grid" output="toHtml"/>

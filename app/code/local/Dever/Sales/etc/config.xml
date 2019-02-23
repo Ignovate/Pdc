@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dever_Sales>
+            <version>0.0.1</version>
+        </Dever_Sales>
+    </modules>
+    <global>
+        <helpers>
+            <dever_sales>
+                <class>Dever_Sales_Helper</class>
+            </dever_sales>
+        </helpers>
+        <blocks>
+            <dever_sales>
+                <class>Dever_Sales_Block</class>
+            </dever_sales>
+        </blocks>
+        <models>
+            <dever_sales>
+                <class>Dever_Sales_Model</class>
+                <resourceModel>dever_sales_resource</resourceModel>
+            </dever_sales>
+            <dever_sales_resource>
+                <class>Dever_Sales_Model_Resource</class>
+                <entities>
+                    <bulk>
+                        <table>bulk_orders</table>
+                    </bulk>
+                </entities>
+            </dever_sales_resource>
+        </models>
+        <events>
+            
+            <sales_order_save_after>
+                <observers>
+                    <trigger_fcm_status_change>
+                        <type>singleton</type>
+                        <class>dever_sales_model_observer</class>
+                        <method>triggerFcm</method>
+                    </trigger_fcm_status_change>
+                </observers>
+            </sales_order_save_after>
+        </events>
+        <resources>
+            <dever_sales_setup>
+                <setup>
+                    <module>Dever_Sales</module>
+                    <class>Dever_Sales_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </dever_sales_setup>
+            <dever_sales_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </dever_sales_read>
+            <dever_sales_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </dever_sales_write>
+        </resources>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <dever_sales>
+                    <file>dever/sales.xml</file>
+                </dever_sales>
+            </updates>
+        </layout>
+       <!-- <menu>
+            <dever_sales module="dever_sales">
+                <title>Bulk Orders</title>
+                <sort_order>1</sort_order>
+                <children>
+                    <import module="dever_sales">
+                        <title>Upload File</title>
+                        <sort_order>0</sort_order>
+                        <action>adminhtml/bulk/</action>
+                    </import>
+                </children>
+            </dever_sales>
+        </menu> -->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <dever_sales before="Mage_Adminhtml">Dever_Sales_Adminhtml</dever_sales>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

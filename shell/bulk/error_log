@@ -1,0 +1,3 @@
+[18-Feb-2019 07:52:54 UTC] PHP Fatal error:  Call to a member function getMethodInstance() on boolean in /home/ignov6p5/public_html/www.melonberries.com/pdc/app/code/core/Mage/Payment/Model/Observer.php on line 46
+[18-Feb-2019 07:54:58 UTC] PHP Fatal error:  Call to a member function getMethodInstance() on boolean in /home/ignov6p5/public_html/www.melonberries.com/pdc/app/code/core/Mage/Payment/Model/Observer.php on line 46
+[23-Feb-2019 05:34:53 UTC] PHP Fatal error:  Call to a member function getMethodInstance() on boolean in /home/ignov6p5/public_html/www.melonberries.com/pdc/app/code/core/Mage/Payment/Model/Observer.php on line 46
