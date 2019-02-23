@@ -173,6 +173,10 @@ class Mage_Adminhtml_Model_Sales_Order_Create extends Varien_Object implements M
             'website_id'  => $this->_session->getStore()->getWebsiteId(),
             'customer_group_id' => $this->getCustomerGroupId(),
         )));
+				
+        //$reg = Mage::registry('rule_data');
+        //print_r($reg);
+        //exit;
         return $this;
     }
 
@@ -1402,6 +1406,8 @@ class Mage_Adminhtml_Model_Sales_Order_Create extends Varien_Object implements M
      */
     public function _prepareCustomer()
     {
+		//die("inside m1");
+		
         /** @var $quote Mage_Sales_Model_Quote */
         $quote = $this->getQuote();
         if ($quote->getCustomerIsGuest()) {
@@ -1557,6 +1563,7 @@ class Mage_Adminhtml_Model_Sales_Order_Create extends Varien_Object implements M
         $service = Mage::getModel('sales/service_quote', $quote);
         /** @var Mage_Sales_Model_Order $oldOrder */
         $oldOrder = $this->getSession()->getOrder();
+		
         if ($oldOrder->getId()) {
             $originalId = $oldOrder->getOriginalIncrementId();
             if (!$originalId) {
@@ -1628,6 +1635,8 @@ class Mage_Adminhtml_Model_Sales_Order_Create extends Varien_Object implements M
                 $this->_errors = array_merge($this->_errors, $messages);
             }
         }
+		//Set this explicitly to process batch
+        $this->getQuote()->getShippingAddress()->setShippingMethod('freeshipping_freeshipping');
 
         if (!$this->getQuote()->isVirtual()) {
             if (!$this->getQuote()->getShippingAddress()->getShippingMethod()) {
