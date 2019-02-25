@@ -13,7 +13,7 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
 
     public function __construct()
     {
-        $this->_apiKey = 'AIzaSyAHPG9ibkDceJUVXez5xr9iIuLZgBm7ruI';
+        $this->_apiKey = 'AIzaSyATlqcsgc6mPyKkWZWdYqaphrir85j_2hg';
 
         return $this;
     }
@@ -25,9 +25,9 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
             'title'		=> 'PDC Order Update',
             'vibrate'	=> 1,
             'sound'		=> 1,
-            'largeIcon'	=> 'http://melonberries.com/pdc/appimages/logo.png',
-            'smallIcon'	=> 'http://melonberries.com/pdc/appimages/logo.png',
-            'icon'	=> 'http://melonberries.com/pdc/appimages/logo.png',
+            'largeIcon'	=> 'https://www.pdcorders.com/appimages/logo.png',
+            'smallIcon'	=> 'https://www.pdcorders.com/appimages/logo.png',
+            'icon'	=> 'https://www.pdcorders.com/appimages/logo.png',
             'priority' => 'high',
             'show_in_foreground' => true
         );
