@@ -146,6 +146,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             }
 
             Mage::log("Job End - " . date('Y-m-d H:i:s'), null, 'bulkimport.log');
+			rename($datafile, $datafile_date('Y-m-d H:i:s'));
         }
     }
 
