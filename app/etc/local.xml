@@ -40,10 +40,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[ignov6p5_dev]]></username>
-                    <password><![CDATA[iGnovate007]]></password>
-                    <dbname><![CDATA[ignov6p5_devops]]></dbname>
+                    <host><![CDATA[pdcdrugstoreSQL]]></host>
+                    <username><![CDATA[root]]></username>
+                    <dbname><![CDATA[pdc]]></dbname>
+                    <password><![CDATA[iwRCKICX4olDry4yQclM1x]]></password>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
