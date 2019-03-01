@@ -146,7 +146,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             }
 
             Mage::log("Job End - " . date('Y-m-d H:i:s'), null, 'bulkimport.log');
-			rename("Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew.xlsx'", "Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew_"date('Y-m-d H:i:s')".xlsx'");
+			rename("Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew.xlsx'", "Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew_".date('Y-m-d H:i:s').".xlsx'");
         }
     }
 
