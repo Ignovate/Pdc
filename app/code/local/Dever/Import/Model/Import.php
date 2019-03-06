@@ -102,9 +102,9 @@ class Dever_Import_Model_Import extends Mage_Core_Model_Abstract
                 }
 
                 if ($index['images']) {
-                    $this->addImages($product, $index['images'], $mediaDir);
-                    $this->addImages($product, $index['small_image'], $mediaDir);
-                    $this->addImages($product, $index['thumbnail'], $mediaDir);
+                    $this->addImages($product, array($index['images'],$index['small_image'],$index['thumbnail']), $mediaDir);
+                    //$this->addImages($product, $index['small_image'], $mediaDir);
+                   // $this->addImages($product, $index['thumbnail'], $mediaDir);
                     unset($index['images']);
                     unset($index['small_image']);
                     unset($index['thumbnail']);
