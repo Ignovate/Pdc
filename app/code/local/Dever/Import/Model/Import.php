@@ -84,11 +84,11 @@ class Dever_Import_Model_Import extends Mage_Core_Model_Abstract
                     ->setAttributeSetId(4)
                     ->setCreatedAt(strtotime('now'))
                     ->setTaxClassId(4)
-                    ->setVisibility(Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH)
+                    ->setVisibility($index['visibility'])
                     ->setName($index['name'])
                     ->setDescription($index['name'])
                     ->setShortDescription($index['name'])
-                    ->setStatus(1);
+                    ->setStatus($index['status']);
 
                 if ($index['category']) {
                     //Get Category Id by name
