@@ -103,11 +103,11 @@ class Dever_Import_Model_Import extends Mage_Core_Model_Abstract
 
                 if ($index['images']) {
                     $this->addImages($product, $index['images'], $mediaDir);
-                    $this->addImages($product, null, $mediaDir);
-                    $this->addImages($product, null, $mediaDir);
+                    $this->addImages($product, $index['small_image'], $mediaDir);
+                    $this->addImages($product, $index['thumbnail'], $mediaDir);
                     unset($index['images']);
-                   // unset($index['small_image']);
-                   // unset($index['thumbnail']);
+                    unset($index['small_image']);
+                    unset($index['thumbnail']);
                 }
 
                 //Price fields
@@ -133,7 +133,6 @@ class Dever_Import_Model_Import extends Mage_Core_Model_Abstract
             }
 
         } catch (Exception $e) {
-
             echo (string)$e->getMessage();
         }
     }
@@ -155,6 +154,7 @@ class Dever_Import_Model_Import extends Mage_Core_Model_Abstract
                 return false;
             }
         }
+        
     }
 
     public function addImagesBySku($product, $sku, $dir)
