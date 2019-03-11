@@ -1716,7 +1716,7 @@ div.autocomplete ul li { padding:.5em .7em; min-height:32px; cursor:pointer; tex
 }
 @media(min-width: 1200px){
     .login-container{
-        padding-top: 180px;
+        padding-top: 80px;
     }
 }
 @media(min-width: 1800px){
@@ -1724,7 +1724,7 @@ div.autocomplete ul li { padding:.5em .7em; min-height:32px; cursor:pointer; tex
         padding-top: 240px;
     }
 }
-.login-box{background:url(images/cmsmart/pdc.png) top center no-repeat; padding-top: 140px;}
+.login-box{background:url(images/cmsmart/pdc.png) top center no-repeat; padding-top: 170px;}
 .login-form{color:#fff; text-align:left; }
 .login-form .input-left{ float:left; }
 .login-form .input-right{ float:right; }
