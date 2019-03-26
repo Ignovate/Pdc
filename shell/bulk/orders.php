@@ -21,7 +21,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
     public function _construct()
     {
         parent::_construct();
-        $datafile = Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew.xlsx';
+        $datafile = Mage::getBaseDir('var') . DS . 'import' . DS . 'orders.xlsx';
 
         //echo "Loading {$datafile}. \n";
         $xlsx = @(new SimpleXLSX($datafile));
@@ -105,6 +105,15 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     'order' => array (
                         'currency' => 'AED',
                         'shipping_address' => array (
+                            'firstname' => $orderData['firstname'],
+                            'lastname' => $orderData['lastname'],
+                            'street' => $orderData['address'],
+                            'country_id' => $orderData['country'],
+                            'city' => $orderData['city'],
+                            'postcode' => $orderData['postcode'],
+                            'telephone' => $orderData['telephone']
+                        ),
+                        'billing_address' => array (
                             'firstname' => $orderData['firstname'],
                             'lastname' => $orderData['lastname'],
                             'street' => $orderData['address'],

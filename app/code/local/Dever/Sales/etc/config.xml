@@ -72,19 +72,19 @@
                 </dever_sales>
             </updates>
         </layout>
-       <!-- <menu>
+        <menu>
             <dever_sales module="dever_sales">
                 <title>Bulk Orders</title>
                 <sort_order>1</sort_order>
                 <children>
                     <import module="dever_sales">
-                        <title>Upload File</title>
+                        <title>Bulk Orders</title>
                         <sort_order>0</sort_order>
                         <action>adminhtml/bulk/</action>
                     </import>
                 </children>
             </dever_sales>
-        </menu> -->
+        </menu> 	
     </adminhtml>
     <admin>
         <routers>

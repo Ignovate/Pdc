@@ -43,10 +43,10 @@ class Dever_Sales_Adminhtml_BulkController extends Mage_Adminhtml_Controller_Act
             //$data['updated_at'] = date ('Y-m-d H:i:s');
             $bulk->addData($data)->save();
             $this->_getSession()->addSuccess(
-                $this->__("Orders Sheet uploaded successfully")
+                $this->__("Sheet uploaded successfully")
             );
-            $newfilename = "ordersnew.xlsx";
-            rename($path."/".$fileName,$path."/".$newfilename);
+            //$newfilename = "ordersnew.xlsx";
+            //rename($path."/".$fileName,$path."/".$newfilename);
         } catch (Exception $e) {
             $this->_getSession()->addError($e->getMessage());
         }
