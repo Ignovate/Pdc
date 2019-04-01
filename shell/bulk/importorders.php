@@ -16,7 +16,6 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
     {
         parent::_construct();
         $datafile = Mage::getBaseDir('var') . DS . 'import' . DS . 'orders.xlsx';
-        
         //echo "Loading {$datafile}. \n";
         $xlsx = @(new SimpleXLSX($datafile));
         $rows =  $xlsx->rows();
@@ -31,7 +30,6 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
         $resource = Mage::getSingleton('core/resource');
         $writeAdapter = $resource->getConnection('core_write');
         $orders = $this->prepareData();
-        print_r($orders);
         foreach ($orders as $orderData){
             $q = '"';
             $customer_email = $q.$orderData['email'].$q;
@@ -52,11 +50,8 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             $status = '"Pending"';
             $resource = Mage::getSingleton('core/resource');
             $writeAdapter = $resource->getConnection('core_write');
-            print_r($customer_email);
             $query = "INSERT INTO custom_bulk_order (`customer_email`,`store_id`,`method`,`items`,`currency`,`firstname`,`lastname`,`street`,`country_id`,`city`,`postcode`,`telephone`,`shipping_method`,`comment`,`status`, `import_dtime`) VALUES ($customer_email, $store_id, $method, $items, $currency,$firstname, $lastname, $street, $country_id, $city,$postcode, $telephone, $shipping_method, $comment, $status, $import_dtime);";
-            print_r($query);
             $writeAdapter->query($query);
-            print_r("after insert");
         }
         $filepath = Mage::getBaseDir('var') . DS . 'import' . DS ;
         $file = "orders.xlsx";

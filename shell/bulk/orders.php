@@ -119,7 +119,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                             echo "inside if \n";
                             $resource = Mage::getSingleton('core/resource');
                             $writeAdapter = $resource->getConnection('core_write');
-                            $query1 = "UPDATE custom_bulk_order SET status = 'complete', order_id = '".$order->getIncrementId()."', timestamp = ".$timestamp." where id = ".$orderId;
+                            $query1 = "UPDATE custom_bulk_order SET status = 'complete',customer_id = ".$customer->getId().", order_id = '".$order->getIncrementId()."', timestamp = ".$timestamp." where id = ".$orderId;
                             $dataselect = $writeAdapter->query($query1);
                         }
                         //Unset Rule Data for every record
@@ -132,7 +132,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     Mage::logException($e);
                     $resource = Mage::getSingleton('core/resource');
                     $writeAdapter = $resource->getConnection('core_write');
-                    $exceptionquery = "UPDATE custom_bulk_order SET status = 'error', message = 'SKUs Might Be Wrong / Missing OR Data Error', timestamp = ".$timestamp." where id = ".$orderId;
+                    $exceptionquery = "UPDATE custom_bulk_order SET status = 'error',customer_id = ".$customer->getId().", message = 'SKUs Might Be Wrong / Missing OR Data Error', timestamp = ".$timestamp." where id = ".$orderId;
                     $dataselect = $writeAdapter->query($exceptionquery);
                 }
                 echo"Session Cleared ";echo "\n";
