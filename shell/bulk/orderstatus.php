@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: prabu
- * Date: 20/11/17
- * Time: 5:55 PM
- */
+
 require_once '../abstract.php';
 require_once '../simplexlsx.class.php';
 class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
@@ -135,6 +130,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             foreach ($items as $item)
             {
                 if ($item['sku'] == $sku) {
+                    echo $sku;
                     $item->setQtyCanceled($cQty)
                         ->save();
                     Mage::log("***** Cancel - {$item['sku']} - {$cQty}", null, 'bulkstatus.log');

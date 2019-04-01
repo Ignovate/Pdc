@@ -1,14 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: prabu
- * Date: 20/11/17
- * Time: 5:55 PM
- */
+
 
 require_once '../abstract.php';
-
-require_once '../simplexlsx.class.php';
 
 class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 {
@@ -18,80 +11,59 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 
     const DEFAULT_STORE = 2;
 
-    public function _construct()
-    {
-        parent::_construct();
-        $datafile = Mage::getBaseDir('var') . DS . 'import' . DS . 'orders.xlsx';
-
-        //echo "Loading {$datafile}. \n";
-        $xlsx = @(new SimpleXLSX($datafile));
-        $rows =  $xlsx->rows();
-        $total = count($rows);
-        //echo "Loaded {$total} rows. \n";
-
-        $this->_processData = $rows;
-    }
 
     public function run()
     {
+        
         ini_set('memory_limit', '2G');
-
-        $orderData = $this->prepareData();
-        $this->createOrder($orderData);
+        $resource = Mage::getSingleton('core/resource');
+        $writeAdapter = $resource->getConnection('core_write');
+        $query1 = "select * from custom_bulk_order where status = 'Pending' limit 1";
+        $dataselect = $writeAdapter->fetchAll($query1);
+        $this->createOrder($dataselect);
+        
     }
-
-    /**
-     * Create Sales Order
-     *
-     * @param $orderData
-     */
-    public function prepareData()
-    {
-        $orders = array();
-        try {
-            if ($this->_processData) {
-                $csvHeaders = array();
-                foreach ($this->_processData as $key => $lines) {
-                    if ($key == 0) {
-                        $csvHeaders = $lines;
-                    } else {
-                        $orders[] = array_combine($csvHeaders, $lines);
-                    }
-                }
-            }
-        } catch (Exception $e) {
-            echo (string)$e->getMessage();
-        }
-
-        return $orders;
-    }
-
+    
     public function createOrder($orders)
     {
         if (!empty($orders) && isset($orders)) {
-
+                    
             //print_r($orders);
             //exit;
-
             Mage::log("Job Started - " . date('Y-m-d H:i:s'), null, 'bulkimport.log');
             $i = 1;
             foreach ($orders as $orderData)
             {
-                if (empty($orderData['email'])) {
+                $q = '"';
+                $orderId = $orderData['id'];
+                $timestamp = $q.date("Y-m-d H:i:s").$q;
+                    $resource = Mage::getSingleton('core/resource');
+                    $writeAdapter = $resource->getConnection('core_write');
+                    $initiatequery = "UPDATE custom_bulk_order SET status = 'initiate', timestamp = ".$timestamp." where id = ".$orderId;
+                    $dataselect = $writeAdapter->query($initiatequery);
+                
+                 if (empty($orderData['customer_email'])) {
                     Mage::log("\t Row #{$i} Skip Row - Customer Email is empty", null, "bulkimport.log");
+                    $resource = Mage::getSingleton('core/resource');
+                    $writeAdapter = $resource->getConnection('core_write');
+                    $emptyquery = "UPDATE custom_bulk_order SET status = 'error', timestamp = ".$timestamp.", message = 'Customer Email is empty' where id = ".$orderId;
+                    $dataselect = $writeAdapter->query($emptyquery);
                     continue;
                 }
-
+ 
                 $customer = Mage::getModel('customer/customer')
                     ->setWebsiteId(self::DEFAULT_WEBSITE)
-                    ->loadByEmail($orderData['email']);
-
+                    ->loadByEmail($orderData['customer_email']);
+                
                 if (empty($customer->getId())) {
-                    //Mage::throwException('Customer does not Exists - Skip Row');
-                    Mage::log("\t Row #{$i} Customer Email " . $orderData['email'] . " does not exists", null, "bulkimport.log");
+                    
+                    Mage::log("\t Row #{$i} Customer Email " . $orderData['customer_email'] . " does not exists", null, "bulkimport.log");
+                    $resource = Mage::getSingleton('core/resource');
+                    $writeAdapter = $resource->getConnection('core_write');
+                    $existquery = "UPDATE custom_bulk_order SET status = 'error', message = 'Customer Email does not exists', timestamp = ".$timestamp." where id = ".$orderId;
+                    $dataselect = $writeAdapter->query($existquery);
                     continue;
                 }
-
                 //Prepare from Sheet Data as accepted Order array
                 $orderData = array (
                     'session' => array (
@@ -101,14 +73,14 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     'payment' => array (
                         'method' => 'cashondelivery'
                     ),
-                    'items' => $this->_buildItems($orderData['items']),
+                    'items' => $this->_buildItems($orderData['items'], $orderId),
                     'order' => array (
                         'currency' => 'AED',
                         'shipping_address' => array (
                             'firstname' => $orderData['firstname'],
                             'lastname' => $orderData['lastname'],
-                            'street' => $orderData['address'],
-                            'country_id' => $orderData['country'],
+                            'street' => $orderData['street'],
+                            'country_id' => $orderData['country_id'],
                             'city' => $orderData['city'],
                             'postcode' => $orderData['postcode'],
                             'telephone' => $orderData['telephone']
@@ -116,8 +88,8 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                         'billing_address' => array (
                             'firstname' => $orderData['firstname'],
                             'lastname' => $orderData['lastname'],
-                            'street' => $orderData['address'],
-                            'country_id' => $orderData['country'],
+                            'street' => $orderData['street'],
+                            'country_id' => $orderData['country_id'],
                             'city' => $orderData['city'],
                             'postcode' => $orderData['postcode'],
                             'telephone' => $orderData['telephone']
@@ -126,40 +98,53 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     'shipping_method' => 'freeshipping_freeshipping',
                     'comment' => 'Order Created using sheet'
                 );
-
-                $this->_initSession($orderData['session']);
-
+                
+                $this->_initSession($orderData['session']); 
+              
                 try {
                     $this->_processQuote($orderData);
+                   
                     if (!empty($orderData['payment'])) {
                         $this->_getOrderCreateModel()->setPaymentData($orderData['payment']);
                         $this->_getOrderCreateModel()->getQuote()->getPayment()->addData($orderData['payment']);
                     }
-
+                        
                     $order = $this->_getOrderCreateModel()
                         ->importPostData($orderData['order'])
                         ->createOrder();
-
-                    //Unset Rule Data for every record
-                    Mage::unregister('rule_data');
-
-                    echo "{$order->getIncrementId()} \n";
-                    Mage::log("\t Row #{$i} Order Success - " . $order->getIncrementId(), null, 'bulkimport.log');
-
-                    $this->_getSession()->clear();
-
+                  
+                        if(empty($order->getIncrementId())){
+                            echo "run create"; echo $orderId; 
+                        }else{
+                            echo "inside if \n";
+                            $resource = Mage::getSingleton('core/resource');
+                            $writeAdapter = $resource->getConnection('core_write');
+                            $query1 = "UPDATE custom_bulk_order SET status = 'complete', order_id = '".$order->getIncrementId()."', timestamp = ".$timestamp." where id = ".$orderId;
+                            $dataselect = $writeAdapter->query($query1);
+                        }
+                        //Unset Rule Data for every record
+                        Mage::unregister('rule_data');
+                        echo "{$order->getIncrementId()} \n";
+                        Mage::log("\t Row #{$i} Order Success - " . $order->getIncrementId(), null, 'bulkimport.log');
+                        $this->_getSession()->clear();
+                        
                 } catch (Exception $e){
                     Mage::logException($e);
+                    $resource = Mage::getSingleton('core/resource');
+                    $writeAdapter = $resource->getConnection('core_write');
+                    $exceptionquery = "UPDATE custom_bulk_order SET status = 'error', message = 'SKUs Might Be Wrong / Missing OR Data Error', timestamp = ".$timestamp." where id = ".$orderId;
+                    $dataselect = $writeAdapter->query($exceptionquery);
                 }
+                echo"Session Cleared ";echo "\n";
                 $i++;
             }
-
+            
             Mage::log("Job End - " . date('Y-m-d H:i:s'), null, 'bulkimport.log');
-			rename("Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew.xlsx'", "Mage::getBaseDir('var') . DS . 'import' . DS . 'ordersnew_'".date('Y-m-d H:i:s')."'.xlsx'");
+                                
         }
     }
 
-    protected function _buildItems($items)
+    protected function _buildItems($items, $id)
     {
         $itemArr = array();
         $splitItems = explode(',', $items);
@@ -168,10 +153,18 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             $val = explode(':', $split);
             $productId = $this->_getProduct()->getIdBySku($val[0]);
             if (isset($productId) && !empty($productId)) {
-                $itemArr[$productId] = $val[1];
+                $x = $val[1];
+                $itemArr[$productId] = (int)$x;
             }
         }
-
+        
+        if(empty($itemArr)){
+           $resource = Mage::getSingleton('core/resource');
+           $writeAdapter = $resource->getConnection('core_write');
+           $exceptionquery1 = "UPDATE custom_bulk_order SET status = 'error', message = 'SKUs Might Be Wrong / Missing OR Data Error', timestamp = ".$timestamp." where id = ".$id;
+           $dataselect = $writeAdapter->query($exceptionquery1);
+        }
+        
         return $itemArr;
     }
     /**
@@ -210,7 +203,6 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
         if (!empty($data['payment'])) {
             $this->_getOrderCreateModel()->getQuote()->getPayment()->addData($data['payment']);
         }
-
         return $this;
     }
 
