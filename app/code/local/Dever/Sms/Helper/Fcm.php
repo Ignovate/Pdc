@@ -20,20 +20,34 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
 
     public function sendSms($fcmId, $message)
     {
-        $msg = array (
+         $msg = array (
+            
             'body' 	=> $message,
             'title'		=> 'PDC Order Update',
+            'click_action' => 'notification',
             'vibrate'	=> 1,
             'sound'		=> 1,
-            'largeIcon'	=> 'https://www.pdcorders.com/appimages/logo.png',
-            'smallIcon'	=> 'https://www.pdcorders.com/appimages/logo.png',
-            'icon'	=> 'https://www.pdcorders.com/appimages/logo.png',
+            'largeIcon'	=> 'https://www.pdcorders.com/appimages/logo.pn',
+            'smallIcon'	=> 'https://www.pdcorders.com/appimages/logo.pn',
+            'icon'	=> 'https://www.pdcorders.com/appimages/logo.pn',
             'priority' => 'high',
             'show_in_foreground' => true
         );
         $fields = array (
             'to' 	=> $fcmId,
-            'notification'  => $msg
+            'data'=> array(
+                      'custom_notification' => array(
+                        'title' => "PDC Order Update",
+                        'body'=> $message,
+                        'sound'=> "default",
+                        'priority' => "high",
+                        'show_in_foreground'=> true,
+                        'targetScreen'=> "detail",
+                        'click_action' => 'notification',
+                        'channel' => 'default'
+                      )
+                    ),
+            'priority' => 10
         );
 
         $headers = array(
