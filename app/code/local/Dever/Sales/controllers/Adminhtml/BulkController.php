@@ -27,12 +27,18 @@ class Dever_Sales_Adminhtml_BulkController extends Mage_Adminhtml_Controller_Act
                 $path = Mage::getBaseDir('var') . DS . 'import';
                 
                 $UploadFileName = $_FILES['filename']['name'];
-                
-                $uploader->save($path, $_FILES['filename']['name'] );
-                $fileName = str_replace(" ","_",$_FILES['filename']['name']);
-                //this way the name is saved in DB
-                $data['filename'] = $fileName;
-                
+                if(file_exists($path ."/". $UploadFileName)){
+					$this->_getSession()->addError("Previous file is under progress, Please try after sometime.");
+				}else{
+					$uploader->save($path, $_FILES['filename']['name'] );
+					$fileName = str_replace(" ","_",$_FILES['filename']['name']);
+					//this way the name is saved in DB
+					$data['filename'] = $fileName;
+					 $bulk->addData($data)->save();
+					$this->_getSession()->addSuccess(
+						$this->__("Sheet uploaded successfully")
+					);
+				}
             } else {
                 if(isset($data['filename']['delete']) && $data['filename']['delete'] == 1) {
                     $data['filename'] = '';
@@ -41,12 +47,14 @@ class Dever_Sales_Adminhtml_BulkController extends Mage_Adminhtml_Controller_Act
                 }
             }
             //$data['updated_at'] = date ('Y-m-d H:i:s');
-            $bulk->addData($data)->save();
-            $this->_getSession()->addSuccess(
-                $this->__("Sheet uploaded successfully")
-            );
-            //$newfilename = "ordersnew.xlsx";
-            //rename($path."/".$fileName,$path."/".$newfilename);
+            if(!file_exists($path ."/". $UploadFileName)){
+                $bulk->addData($data)->save();
+                $this->_getSession()->addSuccess(
+                    $this->__("Sheet uploaded successfully")
+                );
+           // $newfilename = "ordersnew.xlsx";
+            // rename($path."/".$fileName,$path."/".$newfilename);
+			}
         } catch (Exception $e) {
             $this->_getSession()->addError($e->getMessage());
         }
