@@ -27,23 +27,25 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
             'click_action' => 'notification',
             'vibrate'	=> 1,
             'sound'		=> 1,
-            'largeIcon'	=> 'https://www.pdcorders.com/appimages/logo.pn',
-            'smallIcon'	=> 'https://www.pdcorders.com/appimages/logo.pn',
-            'icon'	=> 'https://www.pdcorders.com/appimages/logo.pn',
+            'largeIcon'	=> 'https://www.pdcorders.com/appimages/logo.png',
+            'smallIcon'	=> 'https://www.pdcorders.com/appimages/logo.png',
+            'icon'	=> 'https://www.pdcorders.com/appimages/logo.png',
             'priority' => 'high',
             'show_in_foreground' => true
         );
         $fields = array (
             'to' 	=> $fcmId,
-            'notification'=> array(
-                        'title' => "PDC Order Update",
-                        'body'=> $message,
-                        'sound'=> "default",
-                        'priority' => "high",
-                        'show_in_foreground'=> true,
-                        'targetScreen'=> "detail",
-                        'click_action' => 'notification',
-                        'channel' => 'default'
+            'data'=> array(
+                      'custom_notification' => array(
+							'title' => "PDC Order Update",
+							'body'=> $message,
+							'sound'=> "default",
+							'priority' => "high",
+							'show_in_foreground'=> true,
+							'targetScreen'=> "detail",
+							'click_action' => 'notification',
+							'channel' => 'default'
+						  )
                     ),
             'priority' => 10
         );
