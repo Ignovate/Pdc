@@ -37,7 +37,21 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
             'data'=> $msg,
             'priority' => 10
         );
-
+		$msgForIos = array (
+				'title' => "PDC Order Update",
+				'body'=> $message,
+				'sound'=> "default",
+				'priority' => "high",
+				'show_in_foreground'=> true,
+				'targetScreen'=> "detail",
+				'click_action' => 'notification',
+				'channel' => 'default'
+        );
+		$fieldsForIos = array (
+            'to' 	=> $fcmId,
+            'notification'=> $msgForIos,
+            'priority' => 10
+        );
         $headers = array(
             'Authorization: key=' . $this->_apiKey,
             'Content-Type: application/json'
@@ -52,6 +66,16 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
         curl_setopt( $ch,CURLOPT_POSTFIELDS, json_encode( $fields ) );
         $result = curl_exec($ch );
         curl_close( $ch );
+		
+		$chForIos = curl_init();
+        curl_setopt( $chForIos,CURLOPT_URL, 'https://fcm.googleapis.com/fcm/send' );
+        curl_setopt( $chForIos,CURLOPT_POST, true );
+        curl_setopt( $chForIos,CURLOPT_HTTPHEADER, $headers );
+        curl_setopt( $chForIos,CURLOPT_RETURNTRANSFER, true );
+        curl_setopt( $chForIos,CURLOPT_SSL_VERIFYPEER, false );
+        curl_setopt( $chForIos,CURLOPT_POSTFIELDS, json_encode( $fieldsForIos ) );
+        $resultForIos = curl_exec($chForIos );
+        curl_close( $chForIos );
     }
 
 }
