@@ -21,6 +21,7 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
     public function sendSms($fcmId, $message)
     {
          $msg = array (
+            
             'custom_notification' => array(
                         'title' => "PDC Order Update",
                         'body'=> $message,
@@ -34,7 +35,18 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
         );
         $fields = array (
             'to' 	=> $fcmId,
-            'data'=> $msg,
+            'data'=> array(
+                      'custom_notification' => array(
+                        'title' => "PDC Order Update",
+                        'body'=> $message,
+                        'sound'=> "default",
+                        'priority' => "high",
+                        'show_in_foreground'=> true,
+                        'targetScreen'=> "detail",
+                        'click_action' => 'notification',
+                        'channel' => 'default'
+                      )
+                    ),
             'priority' => 10
         );
 
