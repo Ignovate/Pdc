@@ -36,7 +36,7 @@ class Dever_Sms_Helper_Fcm extends Mage_Core_Helper_Abstract
         $fields = array (
             'to' 	=> $fcmId,
             'data'=> array(
-                      'custom_notification' => array(
+                      'notification' => array(
                         'title' => "PDC Order Update",
                         'body'=> $message,
                         'sound'=> "default",
