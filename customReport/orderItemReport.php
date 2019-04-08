@@ -23,13 +23,13 @@ if($query->num_rows > 0){
     $f = fopen('php://memory', 'w');
     
     //set column headers
-    $fields = array('ordernumber', 'email', 'firstname', 'lastname', 'purchased_date', 'processed_date', 'delivered_date', 'status', 'sku', 'name', 'price', 'ordered_qty', 'invoiced_qty', 'shipped_qty', 'canceled_qty');
+     $fields = array('ordernumber', 'sku', 'invoiced_qty', 'shipped_qty', 'canceled_qty','status','ordered_qty','email', 'firstname', 'lastname','name', 'price', 'purchased_date', 'processed_date', 'delivered_date' );
     fputcsv($f, $fields, $delimiter);
     
     //output each row of the data, format line as csv and write to file pointer
     while($row = $query->fetch_assoc()){
         //$status = ($row['status'] == '1')?'Active':'Inactive';
-        $lineData = array($row['ordernumber'], $row['email'], $row['firstname'], $row['lastname'], $row['purchased_date'], $row['processed_date'], $row['delivered_date'], $row['status'], $row['sku'], $row['name'], $row['price'], $row['ordered_qty'], $row['invoiced_qty'], $row['shipped_qty'], $row['canceled_qty']);
+        $lineData = array($row['ordernumber'], $row['sku'],  $row['invoiced_qty'], $row['shipped_qty'], $row['canceled_qty'], $row['status'], $row['ordered_qty'], $row['email'], $row['firstname'], $row['lastname'], $row['name'], $row['price'], $row['purchased_date'], $row['processed_date'], $row['delivered_date']);
         fputcsv($f, $lineData, $delimiter);
     }
     
