@@ -17,8 +17,8 @@ class Dever_Customer_Model_Observer
         $attrCount = $collection->addAttributeToFilter('retailstores', array('eq' => $customer->getRetailstores()))
             ->count();
 
-        if ($attrCount >= 5) {
-            Mage::throwException("Retailstore can be linked to only 5 customers");
+        if ($attrCount >= 50) {
+            Mage::throwException("Retailstore can be linked to only 50 customers");
         }
 
     }
