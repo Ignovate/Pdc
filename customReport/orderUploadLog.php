@@ -13,7 +13,7 @@ if($db->connect_error){
 }else{
 
 //get records from database
-$query = $db->query("SELECT id as id, order_id as orderid, customer_email as customeremail, items as items, firstname as firstname, lastname as lastname, street as street, country_id as country, city as city, postcode as pincode, telephone as phone, status as status, message as comment, import_dtime as sheetimportedtime, timestamp as orderimportedtime from custom_bulk_order");
+$query = $db->query("SELECT id as id, order_id as orderid, customer_email as customeremail, items as items, firstname as firstname, lastname as lastname, street as street, country_id as country, city as city, postcode as pincode, telephone as phone, status as status, message as comment,skippedSku, import_dtime as sheetimportedtime, timestamp as orderimportedtime from custom_bulk_order");
 if($query->num_rows > 0){
     $delimiter = ",";
     $filename = "OrderUploadLog_" . date('Y-m-d') . ".csv";
@@ -22,13 +22,13 @@ if($query->num_rows > 0){
     $f = fopen('php://memory', 'w');
     
     //set column headers
-    $fields = array('id', 'orderid', 'customeremail', 'items', 'firstname', 'lastname', 'street', 'country', 'city', 'pncode', 'phone', 'status', 'comment', 'sheetimportedtime','orderimportedtime');
+    $fields = array('id', 'orderid', 'customeremail', 'items', 'firstname', 'lastname', 'street', 'country', 'city', 'pncode', 'phone', 'status', 'comment','skippedSku', 'sheetimportedtime','orderimportedtime');
     fputcsv($f, $fields, $delimiter);
     
     //output each row of the data, format line as csv and write to file pointer
     while($row = $query->fetch_assoc()){
         //$status = ($row['status'] == '1')?'Active':'Inactive';
-        $lineData = array($row['id'], $row['orderid'], $row['customeremail'], $row['items'], $row['firstname'], $row['lastname'], $row['street'], $row['country'], $row['city'], $row['pincode'], $row['phone'], $row['status'], $row['comment'], $row['sheetimportedtime'], $row['orderimportedtime']);
+        $lineData = array($row['id'], $row['orderid'], $row['customeremail'], $row['items'], $row['firstname'], $row['lastname'], $row['street'], $row['country'], $row['city'], $row['pincode'], $row['phone'], $row['status'], $row['comment'],$row['skippedSku'], $row['sheetimportedtime'], $row['orderimportedtime']);
         fputcsv($f, $lineData, $delimiter);
     }
     
