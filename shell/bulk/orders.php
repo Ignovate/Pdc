@@ -147,6 +147,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
     protected function _buildItems($items, $id)
     {
         $itemArr = array();
+		$skippedItemArr = array();
         $splitItems = explode(',', $items);
         foreach ($splitItems as $split)
         {
@@ -155,9 +156,17 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             if (isset($productId) && !empty($productId)) {
                 $x = $val[1];
                 $itemArr[$productId] = (int)$x;
-            }
+            }else{
+				$skippedItemArr[] = $val[0];
+			}
         }
-        
+        if(!empty($skippedItemArr) && isset($skippedItemArr)){
+           $skippedItemList = implode(', ', $skippedItemArr);
+		   $resource = Mage::getSingleton('core/resource');
+           $writeAdapter = $resource->getConnection('core_write');
+           $exceptionskippedquery = "UPDATE custom_bulk_order SET skippedSku = '".$skippedItemList."' where id = ".$id;
+           $dataselect = $writeAdapter->query($exceptionskippedquery);
+		}
         if(empty($itemArr)){
            $resource = Mage::getSingleton('core/resource');
            $writeAdapter = $resource->getConnection('core_write');
