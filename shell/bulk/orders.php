@@ -148,7 +148,8 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
     {
         $itemArr = array();
 		$skippedItemArr = array();
-        $splitItems = explode(',', $items);
+		$spItems = str_replace(';', ',', $items);
+        $splitItems = explode(',', $spItems);
 		$q = '"';
         $timestamp = $q.date("Y-m-d H:i:s").$q;
         foreach ($splitItems as $split)
