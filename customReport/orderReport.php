@@ -3,7 +3,7 @@
 $dbHost     = 'pdcdrugstoreSQL';
 $dbUsername = 'root';
 $dbPassword = 'iwRCKICX4olDry4yQclM1x';
-$dbName     = 'pdc';
+$dbName     = 'pdc_staging';
 
 //Create connection and select DB
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
@@ -32,6 +32,32 @@ if($query->num_rows > 0){
         $lineData = array($row['ordernumber'], $row['pharmacyname'], $row['firstname'], $row['lastname'], $row['approved_by'], $row['status'], $row['purchased_date'], $row['processed_date'], $row['delivered_date'], $row['orderedqty'], $row['invoicedqty'], $row['shippedqty'], $row['canceledqty'], $row['total']);
         fputcsv($f, $lineData, $delimiter);
     }
+    
+    //move back to beginning of file
+    fseek($f, 0);
+    
+    //set headers to download file rather than displayed
+    header('Content-Type: text/csv');
+    header('Content-Disposition: attachment; filename="' . $filename . '";');
+    
+    //output all remaining data on a file pointer
+    fpassthru($f);
+}else{
+	$delimiter = ",";
+    $filename = "OrderReport_" . date('Y-m-d') . ".csv";
+    
+    //create a file pointer
+    $f = fopen('php://memory', 'w');
+    
+    //set column headers
+    $fields = array('ordernumber', 'pharmacyname', 'firstname', 'lastname', 'approved_by', 'status', 'purchased_date', 'processed_date', 'delivered_date', 'orderedqty', 'invoicedqty', 'shippedqty', 'canceledqty', 'total');
+    fputcsv($f, $fields, $delimiter);
+    
+    //output each row of the data, format line as csv and write to file pointer
+   
+        //$status = ($row['status'] == '1')?'Active':'Inactive';
+        $lineData = array($row['ordernumber'], $row['pharmacyname'], $row['firstname'], $row['lastname'], $row['approved_by'], $row['status'], $row['purchased_date'], $row['processed_date'], $row['delivered_date'], $row['orderedqty'], $row['invoicedqty'], $row['shippedqty'], $row['canceledqty'], $row['total']);
+        fputcsv($f, $lineData, $delimiter);
     
     //move back to beginning of file
     fseek($f, 0);
