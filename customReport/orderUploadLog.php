@@ -41,6 +41,15 @@ if($query->num_rows > 0){
     
     //output all remaining data on a file pointer
     fpassthru($f);
+}else{
+	$filename = "OrderUploadLog_" . date('Y-m-d') . ".csv";
+	$f = fopen('php://memory', 'w');
+	fseek($f, 0);
+	header('Content-Type: text/csv');
+    header('Content-Disposition: attachment; filename="' . $filename . '";');
+    
+    //output all remaining data on a file pointer
+    fpassthru($f)
 }
 exit;
 }
