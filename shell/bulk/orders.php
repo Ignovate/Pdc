@@ -149,6 +149,8 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
         $itemArr = array();
 		$skippedItemArr = array();
         $splitItems = explode(',', $items);
+		$q = '"';
+        $timestamp = $q.date("Y-m-d H:i:s").$q;
         foreach ($splitItems as $split)
         {
             $val = explode(':', $split);
@@ -171,7 +173,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
            $resource = Mage::getSingleton('core/resource');
            $writeAdapter = $resource->getConnection('core_write');
            $exceptionquery1 = "UPDATE custom_bulk_order SET status = 'error', message = 'SKUs Might Be Wrong / Missing OR Data Error', timestamp = ".$timestamp." where id = ".$id;
-           $dataselect = $writeAdapter->query($exceptionquery1);
+           $skippeddataselect = $writeAdapter->query($exceptionquery1);
         }
         
         return $itemArr;
