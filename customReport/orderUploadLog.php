@@ -46,6 +46,11 @@ if($query->num_rows > 0){
 	$f = fopen('php://memory', 'w');
 	$fields = array('id', 'orderid', 'customeremail', 'items', 'firstname', 'lastname', 'street', 'country', 'city', 'pncode', 'phone', 'status', 'comment','skippedSku', 'sheetimportedtime','orderimportedtime');
     fputcsv($f, $fields, $delimiter);
+	while($row = $query->fetch_assoc()){
+        //$status = ($row['status'] == '1')?'Active':'Inactive';
+        $lineData = array($row['id'], $row['orderid'], $row['customeremail'], $row['items'], $row['firstname'], $row['lastname'], $row['street'], $row['country'], $row['city'], $row['pincode'], $row['phone'], $row['status'], $row['comment'],$row['skippedSku'], $row['sheetimportedtime'], $row['orderimportedtime']);
+        fputcsv($f, $lineData, $delimiter);
+    }
 	fseek($f, 0);
 	header('Content-Type: text/csv');
     header('Content-Disposition: attachment; filename="' . $filename . '";');
