@@ -42,6 +42,7 @@ if($query->num_rows > 0){
     //output all remaining data on a file pointer
     fpassthru($f);
 }else{
+	$delimiter = ",";
 	$filename = "OrderUploadLog_" . date('Y-m-d') . ".csv";
 	$f = fopen('php://memory', 'w');
 	$fields = array('id', 'orderid', 'customeremail', 'items', 'firstname', 'lastname', 'street', 'country', 'city', 'pncode', 'phone', 'status', 'comment','skippedSku', 'sheetimportedtime','orderimportedtime');
