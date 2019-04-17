@@ -41,6 +41,9 @@ if($query->num_rows > 0){
     
     //output all remaining data on a file pointer
     fpassthru($f);
+}else{
+	die("No Data Available ");
 }
+exit;
 }
 ?>
