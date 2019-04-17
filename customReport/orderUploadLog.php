@@ -41,8 +41,6 @@ if($query->num_rows > 0){
     
     //output all remaining data on a file pointer
     fpassthru($f);
-}else{
-	$this->_getSession()->addError($this->__("No Data Available"));
 }
 exit;
 }
