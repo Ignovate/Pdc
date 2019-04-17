@@ -44,6 +44,8 @@ if($query->num_rows > 0){
 }else{
 	$filename = "OrderUploadLog_" . date('Y-m-d') . ".csv";
 	$f = fopen('php://memory', 'w');
+	$fields = array('id', 'orderid', 'customeremail', 'items', 'firstname', 'lastname', 'street', 'country', 'city', 'pncode', 'phone', 'status', 'comment','skippedSku', 'sheetimportedtime','orderimportedtime');
+    fputcsv($f, $fields, $delimiter);
 	fseek($f, 0);
 	header('Content-Type: text/csv');
     header('Content-Disposition: attachment; filename="' . $filename . '";');
