@@ -1,0 +1,11 @@
+#--------------------------#
+# Magento Default Files    #
+#--------------------------#
+
+/app/etc/local.xml
+/customReport/*
+
+/var/cache/*
+/var/session/*
+
+
