@@ -3,7 +3,7 @@
 $dbHost     = 'pdcdrugstoreSQL';
 $dbUsername = 'root';
 $dbPassword = 'iwRCKICX4olDry4yQclM1x';
-$dbName     = 'pdc_staging';
+$dbName     = 'pdc';
 
 //Create connection and select DB
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
