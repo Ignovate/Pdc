@@ -169,7 +169,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 					echo "Status Before : "; 
 					print_r($ordersplit->getStatus());
 					echo ";\n";
-				$ordersplit->setState('partially_completed')
+				$ordersplit->setState('Partially Completed')
 							->save(); 	
 					echo "State After : ";
 					print_r($ordersplit->getState());
