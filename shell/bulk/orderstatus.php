@@ -142,7 +142,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 	
 	protected function _setOrderStatus($order)
     {
-		print_r($order->getState());
+		
 		echo "Inside SetSTatus \n";
         $items = array();
         $ordered = array();
@@ -163,10 +163,13 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     $canceled[] = $item->getQtyCanceled();
                 }
             if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
+				echo "State Before : "; 
+				print_r($ordersplit->getState());
+				echo ";\n";
                 if($ordersplit->setStatus('canceled')
                             ->save()){
-								echo "State : ";
-				print_r($order->getState());
+				echo "State After : ";
+				print_r($ordersplit->getState());
 				echo ";\n";
 							}
             }
