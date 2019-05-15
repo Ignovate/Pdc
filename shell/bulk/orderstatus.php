@@ -142,6 +142,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 	
 	protected function _setOrderStatus($order)
     {
+		echo "Inside SetSTatus";
         $items = array();
         $ordered = array();
         $shipped = array();
@@ -163,6 +164,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
                 $ordersplit->setStatus('pc')
                             ->save();
+				echo "Inside SetStatus as PC";
             }
         }
     }

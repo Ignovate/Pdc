@@ -1307,6 +1307,9 @@
                     <payment_review translate="label">
                         <label>Payment Review</label>
                     </payment_review>
+					<partially_completed translate="label">
+                        <label>Partially Completed</label>
+                    </partially_completed>
                 </statuses>
                 <states>
                     <new translate="label">
@@ -1365,6 +1368,13 @@
                         </statuses>
                         <visible_on_front>1</visible_on_front>
                     </payment_review>
+					<partially_completed translate="label">
+                        <label>Partially Completed</label>
+                        <statuses>
+                            <partially_completed default="1"/>
+                        </statuses>
+                        <visible_on_front>1</visible_on_front>
+                    </partially_completed>
                 </states>
             </order>
             <order_invoice>
