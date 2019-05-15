@@ -73,6 +73,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             } catch (Exception $e) {
                 echo (string)$e->getMessage();
             }
+			$this->_setOrderStatus($orderData);
             $filepath = Mage::getBaseDir('var') . DS . 'import' . DS ;
             $file = "orderstatus.xlsx";
             $ext = pathinfo($filepath.$file, PATHINFO_EXTENSION); //getting image extension
@@ -138,6 +139,34 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             }
         }
     }
+	
+	protected function _setOrderStatus($order)
+    {
+        $items = array();
+        $ordered = array();
+        $shipped = array();
+        $canceled = array();
+            foreach ($order as $data) {
+                $items[] = $data['ordernumber'];
+            }
+            $orderdata = array_unique($items);
+            foreach ($orderdata as $order){
+                $ordersplit = Mage::getModel('sales/order');
+                $ordersplit = $ordersplit->loadByIncrementId($order);
+                $orderitem = $ordersplit->getAllItems();
+                foreach ($orderitem as $item)
+                {
+                    $ordered[] = $item->getQtyOrdered();
+                    $shipped[] = $item->getQtyShipped();
+                    $canceled[] = $item->getQtyCanceled();
+                }
+            if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
+                $ordersplit->setStatus('pc')
+                            ->save();
+            }
+        }
+    }
+	
 }
 $obj = new Dever_Shell_Bulk_Orders();
 $obj->run();
