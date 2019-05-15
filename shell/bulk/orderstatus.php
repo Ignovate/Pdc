@@ -73,7 +73,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             } catch (Exception $e) {
                 echo (string)$e->getMessage();
             }
-			$this->_setOrderStatus($orderData);
+			//$this->_setOrderStatus($orderData);
             $filepath = Mage::getBaseDir('var') . DS . 'import' . DS ;
             $file = "orderstatus.xlsx";
             $ext = pathinfo($filepath.$file, PATHINFO_EXTENSION); //getting image extension
