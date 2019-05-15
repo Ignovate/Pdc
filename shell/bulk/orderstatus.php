@@ -73,7 +73,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             } catch (Exception $e) {
                 echo (string)$e->getMessage();
             }
-			//$this->_setOrderStatus($orderData);
+			$this->_setOrderStatus($orderData);
             $filepath = Mage::getBaseDir('var') . DS . 'import' . DS ;
             $file = "orderstatus.xlsx";
             $ext = pathinfo($filepath.$file, PATHINFO_EXTENSION); //getting image extension
@@ -142,7 +142,8 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 	
 	protected function _setOrderStatus($order)
     {
-		echo "Inside SetSTatus";
+		print_r($order->getState());
+		echo "Inside SetSTatus \n";
         $items = array();
         $ordered = array();
         $shipped = array();
@@ -164,7 +165,9 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
                 if($ordersplit->setStatus('canceled')
                             ->save()){
-				echo "Inside SetStatus as PC \n";
+								echo "State : ";
+				print_r($order->getState());
+				echo ";\n";
 							}
             }
         }
