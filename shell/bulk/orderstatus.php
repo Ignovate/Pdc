@@ -162,7 +162,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     $canceled[] = $item->getQtyCanceled();
                 }
             if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
-                if($ordersplit->setStatus('Partially Completed')
+                if($ordersplit->setStatus('partially_completed')
                             ->save()){
 				echo "Inside SetStatus as PC \n";
 							}
