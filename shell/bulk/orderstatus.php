@@ -163,15 +163,21 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     $canceled[] = $item->getQtyCanceled();
                 }
             if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
-				echo "State Before : "; 
-				print_r($ordersplit->getState());
-				echo ";\n";
-                if($ordersplit->setStatus('canceled')
-                            ->save()){
-				echo "State After : ";
-				print_r($ordersplit->getState());
-				echo ";\n";
-							}
+					echo "State Before : "; 
+					print_r($ordersplit->getState());
+					echo ";\n";
+					echo "Status Before : "; 
+					print_r($ordersplit->getStatus());
+					echo ";\n";
+                $ordersplit->setStatus('canceled')
+                            ->save();
+					echo "State After : ";
+					print_r($ordersplit->getState());
+					echo ";\n";
+					echo "Status After : "; 
+					print_r($ordersplit->getStatus());
+					echo ";\n";
+				}
             }
         }
     }
