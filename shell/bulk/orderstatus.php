@@ -165,7 +165,6 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
             if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
 					echo "State Before : "; 
 					print_r($ordersplit->getState());
-					unlink($)
 					echo ";\n";
 					echo "Status Before : "; 
 					print_r($ordersplit->getStatus());
