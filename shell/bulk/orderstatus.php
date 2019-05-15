@@ -177,7 +177,7 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
 					echo "Status After : "; 
 					print_r($ordersplit->getStatus());
 					echo ";\n";
-				}
+				
             }
         }
     }
