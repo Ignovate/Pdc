@@ -162,32 +162,34 @@ class Dever_Shell_Bulk_Orders extends Mage_Shell_Abstract
                     $shipped[] = $item->getQtyShipped();
                     $canceled[] = $item->getQtyCanceled();
                 }
-            if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
-					echo "State Before : "; 
-					print_r($ordersplit->getState());
-					echo ";\n";
-					echo "Status Before : "; 
-					print_r($ordersplit->getStatus());
-					echo ";\n";
-				$ordersplit->setState('Partially Completed')
-							->save(); 	
-					echo "State After : ";
-					print_r($ordersplit->getState());
-					echo ";\n";
-                $ordersplit->setStatus('Partially Completed')
-							->save(); 
-				
-				// $ordersplit->addStatusToHistory('Partially Completed', true)
-							// ->save(); 
-				
-				$ordersplit->addStatusHistoryComment('Partially Completed', true)
-							->save(); 
-				
-					echo "Status After : "; 
-					print_r($ordersplit->getStatus());
-					echo ";\n";
-				
-            }
+			if(array_sum($canceled) > 0){
+				if( array_sum($ordered) == array_sum($shipped) + array_sum($canceled)){
+						echo "State Before : "; 
+						print_r($ordersplit->getState());
+						echo ";\n";
+						echo "Status Before : "; 
+						print_r($ordersplit->getStatus());
+						echo ";\n";
+					$ordersplit->setState('Partially Completed')
+								->save(); 	
+						echo "State After : ";
+						print_r($ordersplit->getState());
+						echo ";\n";
+					$ordersplit->setStatus('Partially Completed')
+								->save(); 
+					
+					$ordersplit->addStatusToHistory('Partially Completed', "")
+								->save(); 
+					
+					$ordersplit->addStatusHistoryComment('Partially Completed', true)
+								->save(); 
+					
+						echo "Status After : "; 
+						print_r($ordersplit->getStatus());
+						echo ";\n";
+					
+				}
+			}
         }
     }
 	
